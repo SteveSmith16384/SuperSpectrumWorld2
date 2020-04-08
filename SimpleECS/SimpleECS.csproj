@@ -49,9 +49,11 @@
   <ItemGroup>
     <Compile Include="AbstractComponent.cs" />
     <Compile Include="AbstractEntity.cs" />
+    <Compile Include="AbstractEvent.cs" />
     <Compile Include="AbstractSystem.cs" />
     <Compile Include="BasicEcs.cs" />
     <Compile Include="IEcsEventListener.cs" />
+    <Compile Include="ISystem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
