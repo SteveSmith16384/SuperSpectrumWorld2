@@ -9,9 +9,16 @@ namespace SuperSpectrumWorld2
     /// </summary>
     public class Game1 : Game
     {
+        private const int LOGICAL_WIDTH = 320;
+        private const int LOGICAL_HEIGHT = 240;
+        private const int PHYSICAL_WIDTH = 640;
+        private const int PHYSICAL_HEIGHT = 480;
+
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
-        
+        Texture2D ballTexture;
+        RenderTarget2D renderTarget;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -37,9 +44,16 @@ namespace SuperSpectrumWorld2
         /// </summary>
         protected override void LoadContent()
         {
+            renderTarget = new RenderTarget2D(graphics.GraphicsDevice, LOGICAL_WIDTH, LOGICAL_HEIGHT);
+
+            var displayMode = graphics.GraphicsDevice.DisplayMode;
+            graphics.PreferredBackBufferWidth = PHYSICAL_WIDTH;
+            graphics.PreferredBackBufferHeight = PHYSICAL_HEIGHT;
+            graphics.ApplyChanges();
+
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
-
+            ballTexture = Content.Load<Texture2D>("morkin");
             // TODO: use this.Content to load your game content here
         }
 
@@ -73,9 +87,22 @@ namespace SuperSpectrumWorld2
         /// <param name="gameTime">Provides a snapshot of timing values.</param>
         protected override void Draw(GameTime gameTime)
         {
+            GraphicsDevice.SetRenderTarget(this.renderTarget);
             GraphicsDevice.Clear(Color.CornflowerBlue);
+            // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            //spriteBatch.Draw(ballTexture, new Vector2(0, 0), Color.White);
+            spriteBatch.Draw(this.ballTexture, new Vector2(0, 0), Color.White);
+            spriteBatch.End();
+
+            GraphicsDevice.SetRenderTarget(null);
+            //GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+            spriteBatch.Begin();
+            //spriteBatch.Draw(ballTexture, new Vector2(0, 0), Color.White);
+            spriteBatch.Draw(this.renderTarget, new Rectangle(0, 0, PHYSICAL_WIDTH, PHYSICAL_HEIGHT), Color.White);
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
