@@ -43,12 +43,13 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Game1.cs" />
+    <Compile Include="MainClass.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SuperSpectrumWorld2\Entities\PlayersAvatar.cs" />
     <Compile Include="SuperSpectrumWorld2\GameFramework\ScreenManager.cs" />
     <Compile Include="SuperSpectrumWorld2\Systems\DrawingSystem.cs" />
+    <Compile Include="SuperSpectrumWorld2\Systems\InputSystem.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">

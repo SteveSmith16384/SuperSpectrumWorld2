@@ -7,19 +7,19 @@ namespace SuperSpectrumWorld2
     /// <summary>
     /// This is the main type for your game.
     /// </summary>
-    public class Game1 : Game
+    public class MainClass : Game
     {
         private const int LOGICAL_WIDTH = 320;
         private const int LOGICAL_HEIGHT = 240;
         private const int PHYSICAL_WIDTH = 640;
         private const int PHYSICAL_HEIGHT = 480;
 
-        GraphicsDeviceManager graphics;
-        SpriteBatch spriteBatch;
-        Texture2D ballTexture;
-        RenderTarget2D renderTarget;
+        private GraphicsDeviceManager graphics;
+        private SpriteBatch spriteBatch;
+        private Texture2D ballTexture;
+        private RenderTarget2D renderTarget;
 
-        public Game1()
+        public MainClass()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
@@ -44,6 +44,7 @@ namespace SuperSpectrumWorld2
         /// </summary>
         protected override void LoadContent()
         {
+            //GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width
             renderTarget = new RenderTarget2D(graphics.GraphicsDevice, LOGICAL_WIDTH, LOGICAL_HEIGHT);
 
             var displayMode = graphics.GraphicsDevice.DisplayMode;
