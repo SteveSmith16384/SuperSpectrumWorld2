@@ -17,5 +17,8 @@ func _process(delta):
 		$Player.velocity.x = -200
 	elif Input.is_action_pressed("ui_right"):
 		$Player.velocity.x = 200
+	if Input.is_action_pressed("jump"):
+		$Player.velocity.y = -200
+		
 	pass
 

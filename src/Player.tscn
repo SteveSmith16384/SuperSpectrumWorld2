@@ -4,8 +4,8 @@
 [ext_resource path="res://assets/jsw_willy.png" type="Texture" id=2]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 12.0
-height = 32.0
+radius = 10.2533
+height = 22.1674
 
 [sub_resource type="AtlasTexture" id=2]
 flags = 4
@@ -52,12 +52,12 @@ animations = [ {
 "frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ) ],
 "loop": true,
 "name": "left",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
 "loop": true,
 "name": "right",
-"speed": 5.0
+"speed": 10.0
 } ]
 
 [node name="Player" type="KinematicBody2D"]
@@ -67,8 +67,9 @@ script = ExtResource( 1 )
 shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
-position = Vector2( 2, 0 )
-scale = Vector2( 0.566667, 0.583333 )
+position = Vector2( 0.0946054, -0.256744 )
+scale = Vector2( 0.35, 0.415821 )
 frames = SubResource( 10 )
 animation = "left"
+frame = 3
 [connection signal="input_event" from="." to="." method="_on_Player_input_event"]
