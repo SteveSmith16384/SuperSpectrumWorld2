@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/throthewallbackground.png-6a9d4ea0fb9e7c053429b4472509382b.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
-source_file="res://assets/gfx/throthewallbackground.png"
-dest_files=[ "res://.import/throthewallbackground.png-6a9d4ea0fb9e7c053429b4472509382b.stex" ]
-
+source_file="res://assets/gfx/chaos.png"
 [params]
 
 compress/mode=0
