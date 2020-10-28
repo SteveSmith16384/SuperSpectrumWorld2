@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jsw_saw_left.png-86e65ee632be70f178fa1a7a86085c52.stex"
+path="res://.import/graficos_exolon-1.png-ae64009b763c5c30da440936c2ceb33d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/gfx/jsw_saw_left.png"
-dest_files=[ "res://.import/jsw_saw_left.png-86e65ee632be70f178fa1a7a86085c52.stex" ]
+source_file="res://assets/gfx/graficos_exolon-1.png"
+dest_files=[ "res://.import/graficos_exolon-1.png-ae64009b763c5c30da440936c2ceb33d.stex" ]
 
 [params]
 

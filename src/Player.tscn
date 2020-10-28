@@ -7,56 +7,56 @@
 radius = 10.2533
 height = 22.1674
 
-[sub_resource type="AtlasTexture" id=8]
-flags = 4
-atlas = ExtResource( 2 )
-region = Rect2( 360, 0, 60, 96 )
-
-[sub_resource type="AtlasTexture" id=9]
-flags = 4
-atlas = ExtResource( 2 )
-region = Rect2( 420, 0, 60, 96 )
-
-[sub_resource type="AtlasTexture" id=19]
-flags = 4
-atlas = ExtResource( 2 )
-region = Rect2( 300, 0, 60, 96 )
-
-[sub_resource type="AtlasTexture" id=20]
-flags = 4
-atlas = ExtResource( 2 )
-region = Rect2( 360, 0, 60, 96 )
-
-[sub_resource type="AtlasTexture" id=14]
+[sub_resource type="AtlasTexture" id=2]
 flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 0, 0, 60, 96 )
 
-[sub_resource type="AtlasTexture" id=15]
+[sub_resource type="AtlasTexture" id=3]
 flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 60, 0, 60, 96 )
 
-[sub_resource type="AtlasTexture" id=16]
+[sub_resource type="AtlasTexture" id=4]
 flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 120, 0, 60, 96 )
 
-[sub_resource type="AtlasTexture" id=17]
+[sub_resource type="AtlasTexture" id=5]
 flags = 4
 atlas = ExtResource( 2 )
 region = Rect2( 180, 0, 60, 96 )
 
-[sub_resource type="SpriteFrames" id=18]
+[sub_resource type="AtlasTexture" id=6]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 360, 0, 60, 96 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 420, 0, 60, 96 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 300, 0, 60, 96 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 360, 0, 60, 96 )
+
+[sub_resource type="SpriteFrames" id=10]
 animations = [ {
-"frames": [ SubResource( 8 ), SubResource( 9 ), SubResource( 19 ), SubResource( 20 ) ],
-"loop": true,
-"name": "left",
-"speed": 10.0
-}, {
-"frames": [ SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ) ],
+"frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ) ],
 "loop": true,
 "name": "right",
+"speed": 10.0
+}, {
+"frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
+"loop": true,
+"name": "left",
 "speed": 10.0
 } ]
 
@@ -69,7 +69,7 @@ shape = SubResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 0.0946054, -0.256744 )
 scale = Vector2( 0.35, 0.415821 )
-frames = SubResource( 18 )
+frames = SubResource( 10 )
 animation = "left"
 frame = 3
 [connection signal="input_event" from="." to="." method="_on_Player_input_event"]

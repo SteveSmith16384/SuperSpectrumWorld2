@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/darksceptrefigure.png-cd4dd8a7e1c03d7b97165e7fb15f6733.stex"
+path="res://.import/manicminerbackground.png-5d99eedba53678c53d3b3f83aedbd52e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/gfx/darksceptrefigure.png"
-dest_files=[ "res://.import/darksceptrefigure.png-cd4dd8a7e1c03d7b97165e7fb15f6733.stex" ]
+source_file="res://assets/backgrounds/manicminerbackground.png"
+dest_files=[ "res://.import/manicminerbackground.png-5d99eedba53678c53d3b3f83aedbd52e.stex" ]
 
 [params]
 

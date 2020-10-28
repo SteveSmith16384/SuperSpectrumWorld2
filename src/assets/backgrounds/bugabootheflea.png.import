@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/maria.png-cecd378e1ebc19b4d08c048c3bc770d0.stex"
+path="res://.import/bugabootheflea.png-a0623dc927bba91cb32073c69a5dea15.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/gfx/maria.png"
-dest_files=[ "res://.import/maria.png-cecd378e1ebc19b4d08c048c3bc770d0.stex" ]
+source_file="res://assets/backgrounds/bugabootheflea.png"
+dest_files=[ "res://.import/bugabootheflea.png-a0623dc927bba91cb32073c69a5dea15.stex" ]
 
 [params]
 
