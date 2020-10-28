@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/kongbarrel.png-104ac4d87f75b31f39f53464161bf493.stex"
+path="res://.import/kongbarrel.png-f09eb09ce6d9cccc77d9331337f905c9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/kongbarrel.png"
-dest_files=[ "res://.import/kongbarrel.png-104ac4d87f75b31f39f53464161bf493.stex" ]
+source_file="res://assets/gfx/kongbarrel.png"
+dest_files=[ "res://.import/kongbarrel.png-f09eb09ce6d9cccc77d9331337f905c9.stex" ]
 
 [params]
 

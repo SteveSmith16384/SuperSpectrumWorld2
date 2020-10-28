@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chuckieegglift.png-dc50aa4da66144b5ed007f2f30b1276f.stex"
+path="res://.import/chuckieegglift.png-68a46c0270ee6fc07d5d011da6ca8ad5.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chuckieegglift.png"
-dest_files=[ "res://.import/chuckieegglift.png-dc50aa4da66144b5ed007f2f30b1276f.stex" ]
+source_file="res://assets/gfx/chuckieegglift.png"
+dest_files=[ "res://.import/chuckieegglift.png-68a46c0270ee6fc07d5d011da6ca8ad5.stex" ]
 
 [params]
 

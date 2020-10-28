@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/throball.png-eb52e228fc4d6c925a2a2b9765de3154.stex"
+path="res://.import/throball.png-7fb09060cc5495dd2367c5bcf7ef0a1b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/throball.png"
-dest_files=[ "res://.import/throball.png-eb52e228fc4d6c925a2a2b9765de3154.stex" ]
+source_file="res://assets/gfx/throball.png"
+dest_files=[ "res://.import/throball.png-7fb09060cc5495dd2367c5bcf7ef0a1b.stex" ]
 
 [params]
 

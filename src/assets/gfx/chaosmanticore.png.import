@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chaosmanticore.png-ba98a708a2bec55d1bf675153ecad911.stex"
+path="res://.import/chaosmanticore.png-940e298b664f21783dbbadab5ec5e918.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chaosmanticore.png"
-dest_files=[ "res://.import/chaosmanticore.png-ba98a708a2bec55d1bf675153ecad911.stex" ]
+source_file="res://assets/gfx/chaosmanticore.png"
+dest_files=[ "res://.import/chaosmanticore.png-940e298b664f21783dbbadab5ec5e918.stex" ]
 
 [params]
 

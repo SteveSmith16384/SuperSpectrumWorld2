@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/horacecar.png-484fcf5799f3846f3cd867873a7edaf5.stex"
+path="res://.import/horacecar.png-bbe1f193470d535b22edd943068c8edf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/horacecar.png"
-dest_files=[ "res://.import/horacecar.png-484fcf5799f3846f3cd867873a7edaf5.stex" ]
+source_file="res://assets/gfx/horacecar.png"
+dest_files=[ "res://.import/horacecar.png-bbe1f193470d535b22edd943068c8edf.stex" ]
 
 [params]
 

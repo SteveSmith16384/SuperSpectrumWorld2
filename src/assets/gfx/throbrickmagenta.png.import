@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/throbrickmagenta.png-a3346a76aab0b3676ba4b35e8bc6dda8.stex"
+path="res://.import/throbrickmagenta.png-c08abbb0b6fa203272c0fa9f87f3b6ec.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/throbrickmagenta.png"
-dest_files=[ "res://.import/throbrickmagenta.png-a3346a76aab0b3676ba4b35e8bc6dda8.stex" ]
+source_file="res://assets/gfx/throbrickmagenta.png"
+dest_files=[ "res://.import/throbrickmagenta.png-c08abbb0b6fa203272c0fa9f87f3b6ec.stex" ]
 
 [params]
 

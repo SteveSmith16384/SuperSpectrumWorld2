@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jswhead.png-dd19147a75abe19711f6f99241dddfac.stex"
+path="res://.import/jswhead.png-e785a0555383c213d566c5f96b3cfed4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/jswhead.png"
-dest_files=[ "res://.import/jswhead.png-dd19147a75abe19711f6f99241dddfac.stex" ]
+source_file="res://assets/gfx/jswhead.png"
+dest_files=[ "res://.import/jswhead.png-e785a0555383c213d566c5f96b3cfed4.stex" ]
 
 [params]
 

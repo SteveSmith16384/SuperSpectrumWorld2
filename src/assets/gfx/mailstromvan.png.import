@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mailstromvan.png-b285b9ab3f7ed5659ba0c625b83b23d1.stex"
+path="res://.import/mailstromvan.png-5eb2cf82a0a37b39211b50a5e72f42d9.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mailstromvan.png"
-dest_files=[ "res://.import/mailstromvan.png-b285b9ab3f7ed5659ba0c625b83b23d1.stex" ]
+source_file="res://assets/gfx/mailstromvan.png"
+dest_files=[ "res://.import/mailstromvan.png-5eb2cf82a0a37b39211b50a5e72f42d9.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/manicminerwalker.png-dbe24c93efd85de2adf6d4295d0704ab.stex"
+path="res://.import/manicminerwalker.png-1eeb4397061b397e843aeb8558b15593.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/manicminerwalker.png"
-dest_files=[ "res://.import/manicminerwalker.png-dbe24c93efd85de2adf6d4295d0704ab.stex" ]
+source_file="res://assets/gfx/manicminerwalker.png"
+dest_files=[ "res://.import/manicminerwalker.png-1eeb4397061b397e843aeb8558b15593.stex" ]
 
 [params]
 

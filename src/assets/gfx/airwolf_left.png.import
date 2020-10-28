@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/airwolf_left.png-97268b3e0ed2336930d68fdefc57f566.stex"
+path="res://.import/airwolf_left.png-1f5fc0143012961b0eae55e588df660c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/airwolf_left.png"
-dest_files=[ "res://.import/airwolf_left.png-97268b3e0ed2336930d68fdefc57f566.stex" ]
+source_file="res://assets/gfx/airwolf_left.png"
+dest_files=[ "res://.import/airwolf_left.png-1f5fc0143012961b0eae55e588df660c.stex" ]
 
 [params]
 

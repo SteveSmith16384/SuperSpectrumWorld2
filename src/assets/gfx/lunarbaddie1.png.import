@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lunarbaddie1.png-2c930bc3ab6b4df74223f737e219bcbe.stex"
+path="res://.import/lunarbaddie1.png-5fdebb88748d843f6cfc265281f5a270.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/lunarbaddie1.png"
-dest_files=[ "res://.import/lunarbaddie1.png-2c930bc3ab6b4df74223f737e219bcbe.stex" ]
+source_file="res://assets/gfx/lunarbaddie1.png"
+dest_files=[ "res://.import/lunarbaddie1.png-5fdebb88748d843f6cfc265281f5a270.stex" ]
 
 [params]
 

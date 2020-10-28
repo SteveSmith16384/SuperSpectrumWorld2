@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/krakatoalava.png-269f161003c9b184b5ff037cf5916e53.stex"
+path="res://.import/krakatoalava.png-4c2f1026b23387c4e6e868a30b696cec.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/krakatoalava.png"
-dest_files=[ "res://.import/krakatoalava.png-269f161003c9b184b5ff037cf5916e53.stex" ]
+source_file="res://assets/gfx/krakatoalava.png"
+dest_files=[ "res://.import/krakatoalava.png-4c2f1026b23387c4e6e868a30b696cec.stex" ]
 
 [params]
 

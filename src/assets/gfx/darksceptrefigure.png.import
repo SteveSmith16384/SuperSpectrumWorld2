@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/darksceptrefigure.png-2566036ab2454e1b8dcc51ef907ed057.stex"
+path="res://.import/darksceptrefigure.png-cd4dd8a7e1c03d7b97165e7fb15f6733.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/darksceptrefigure.png"
-dest_files=[ "res://.import/darksceptrefigure.png-2566036ab2454e1b8dcc51ef907ed057.stex" ]
+source_file="res://assets/gfx/darksceptrefigure.png"
+dest_files=[ "res://.import/darksceptrefigure.png-cd4dd8a7e1c03d7b97165e7fb15f6733.stex" ]
 
 [params]
 

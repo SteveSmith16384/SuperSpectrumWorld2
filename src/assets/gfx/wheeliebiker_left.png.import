@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wheeliebiker_left.png-eb1e53b82da6062a47568039d5b5aea2.stex"
+path="res://.import/wheeliebiker_left.png-0733c90c1da3a5b26bdce775fd764a27.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/wheeliebiker_left.png"
-dest_files=[ "res://.import/wheeliebiker_left.png-eb1e53b82da6062a47568039d5b5aea2.stex" ]
+source_file="res://assets/gfx/wheeliebiker_left.png"
+dest_files=[ "res://.import/wheeliebiker_left.png-0733c90c1da3a5b26bdce775fd764a27.stex" ]
 
 [params]
 

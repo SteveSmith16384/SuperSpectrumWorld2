@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/die_mortal.png-4ff3dfcf9af22710a747b3d4f34742ff.stex"
+path="res://.import/die_mortal.png-cebf21a9e6d83f51095e172e45d79300.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/die_mortal.png"
-dest_files=[ "res://.import/die_mortal.png-4ff3dfcf9af22710a747b3d4f34742ff.stex" ]
+source_file="res://assets/gfx/die_mortal.png"
+dest_files=[ "res://.import/die_mortal.png-cebf21a9e6d83f51095e172e45d79300.stex" ]
 
 [params]
 

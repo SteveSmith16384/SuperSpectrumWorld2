@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ericbomb.png-964a35546d523e0ef9d4ddd3a0040ead.stex"
+path="res://.import/ericbomb.png-1710db66be3a58f8ddb152d4b5ebd9b4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/ericbomb.png"
-dest_files=[ "res://.import/ericbomb.png-964a35546d523e0ef9d4ddd3a0040ead.stex" ]
+source_file="res://assets/gfx/ericbomb.png"
+dest_files=[ "res://.import/ericbomb.png-1710db66be3a58f8ddb152d4b5ebd9b4.stex" ]
 
 [params]
 

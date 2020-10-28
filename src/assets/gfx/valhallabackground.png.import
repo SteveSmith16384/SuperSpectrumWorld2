@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/valhallabackground.png-214883a5461046eddd3ed170f76492e8.stex"
+path="res://.import/valhallabackground.png-2bd1e2e02e44e49524ab046ec9d4a9ea.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/valhallabackground.png"
-dest_files=[ "res://.import/valhallabackground.png-214883a5461046eddd3ed170f76492e8.stex" ]
+source_file="res://assets/gfx/valhallabackground.png"
+dest_files=[ "res://.import/valhallabackground.png-2bd1e2e02e44e49524ab046ec9d4a9ea.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/krakatoabomb.png-46cccf5c5ca21dedd260758af5c64a39.stex"
+path="res://.import/krakatoabomb.png-d2e0e2560eedc30dfc4efe461e96fc7b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/krakatoabomb.png"
-dest_files=[ "res://.import/krakatoabomb.png-46cccf5c5ca21dedd260758af5c64a39.stex" ]
+source_file="res://assets/gfx/krakatoabomb.png"
+dest_files=[ "res://.import/krakatoabomb.png-d2e0e2560eedc30dfc4efe461e96fc7b.stex" ]
 
 [params]
 

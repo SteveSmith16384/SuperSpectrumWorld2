@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wheeliehedgehog.png-e0ec6057fb57567288e71044c9a104b5.stex"
+path="res://.import/wheeliehedgehog.png-90feb858a960ba2e0a87d0f1c2aab613.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/wheeliehedgehog.png"
-dest_files=[ "res://.import/wheeliehedgehog.png-e0ec6057fb57567288e71044c9a104b5.stex" ]
+source_file="res://assets/gfx/wheeliehedgehog.png"
+dest_files=[ "res://.import/wheeliehedgehog.png-90feb858a960ba2e0a87d0f1c2aab613.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/horacebike.png-1d437a14308c38099586b2d13fd2268c.stex"
+path="res://.import/horacebike.png-a5b476817d820883644f5a0592bf5159.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/horacebike.png"
-dest_files=[ "res://.import/horacebike.png-1d437a14308c38099586b2d13fd2268c.stex" ]
+source_file="res://assets/gfx/horacebike.png"
+dest_files=[ "res://.import/horacebike.png-a5b476817d820883644f5a0592bf5159.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mmconveyor2.png-e96173bcf96e7ee789ba8e0a2334751b.stex"
+path="res://.import/mmconveyor2.png-3aa6e6d1ccba8dae62ed614101db650d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mmconveyor2.png"
-dest_files=[ "res://.import/mmconveyor2.png-e96173bcf96e7ee789ba8e0a2334751b.stex" ]
+source_file="res://assets/gfx/mmconveyor2.png"
+dest_files=[ "res://.import/mmconveyor2.png-3aa6e6d1ccba8dae62ed614101db650d.stex" ]
 
 [params]
 

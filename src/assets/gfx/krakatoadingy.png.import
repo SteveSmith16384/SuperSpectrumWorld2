@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/krakatoadingy.png-213ef7306fd56e359f45fd346555399d.stex"
+path="res://.import/krakatoadingy.png-2b7a5fdc46a5951bfa34311a47e0b3e8.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/krakatoadingy.png"
-dest_files=[ "res://.import/krakatoadingy.png-213ef7306fd56e359f45fd346555399d.stex" ]
+source_file="res://assets/gfx/krakatoadingy.png"
+dest_files=[ "res://.import/krakatoadingy.png-2b7a5fdc46a5951bfa34311a47e0b3e8.stex" ]
 
 [params]
 

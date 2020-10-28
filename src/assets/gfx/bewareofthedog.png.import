@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/bewareofthedog.png-ec3f4234746db31ac7e5b4e8deef1b62.stex"
+path="res://.import/bewareofthedog.png-5cce62733b2f500172424afddf9fb8fd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/bewareofthedog.png"
-dest_files=[ "res://.import/bewareofthedog.png-ec3f4234746db31ac7e5b4e8deef1b62.stex" ]
+source_file="res://assets/gfx/bewareofthedog.png"
+dest_files=[ "res://.import/bewareofthedog.png-5cce62733b2f500172424afddf9fb8fd.stex" ]
 
 [params]
 

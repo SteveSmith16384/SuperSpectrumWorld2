@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chaosfire.png-b8b5456e5a77c7b1ab49abc5e140ec11.stex"
+path="res://.import/chaosfire.png-167d374ca575c2108332bd1cf8950eff.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chaosfire.png"
-dest_files=[ "res://.import/chaosfire.png-b8b5456e5a77c7b1ab49abc5e140ec11.stex" ]
+source_file="res://assets/gfx/chaosfire.png"
+dest_files=[ "res://.import/chaosfire.png-167d374ca575c2108332bd1cf8950eff.stex" ]
 
 [params]
 

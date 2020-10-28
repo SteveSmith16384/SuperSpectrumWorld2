@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/harrierattackmissile.png-dcec954af6c2fa5a848b617409b3d75f.stex"
+path="res://.import/harrierattackmissile.png-13eda28a7d26b7b2e056aba188c8944a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/harrierattackmissile.png"
-dest_files=[ "res://.import/harrierattackmissile.png-dcec954af6c2fa5a848b617409b3d75f.stex" ]
+source_file="res://assets/gfx/harrierattackmissile.png"
+dest_files=[ "res://.import/harrierattackmissile.png-13eda28a7d26b7b2e056aba188c8944a.stex" ]
 
 [params]
 

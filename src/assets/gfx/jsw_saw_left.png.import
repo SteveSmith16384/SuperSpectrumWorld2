@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jsw_saw_left.png-3669b8ef4794c19e0faebab2233b406d.stex"
+path="res://.import/jsw_saw_left.png-86e65ee632be70f178fa1a7a86085c52.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/jsw_saw_left.png"
-dest_files=[ "res://.import/jsw_saw_left.png-3669b8ef4794c19e0faebab2233b406d.stex" ]
+source_file="res://assets/gfx/jsw_saw_left.png"
+dest_files=[ "res://.import/jsw_saw_left.png-86e65ee632be70f178fa1a7a86085c52.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/manicminer_exit1.png-7fd7329b940c416b2e75411dc1b92d6d.stex"
+path="res://.import/manicminer_exit1.png-303b433b177b51bf5b070ddb796154e1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/manicminer_exit1.png"
-dest_files=[ "res://.import/manicminer_exit1.png-7fd7329b940c416b2e75411dc1b92d6d.stex" ]
+source_file="res://assets/gfx/manicminer_exit1.png"
+dest_files=[ "res://.import/manicminer_exit1.png-303b433b177b51bf5b070ddb796154e1.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/fireball_cyan.png-7025c805f4057c0febd586f173f000e1.stex"
+path="res://.import/fireball_cyan.png-ca6428da81cf19a0836c77c1a5626abb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/fireball_cyan.png"
-dest_files=[ "res://.import/fireball_cyan.png-7025c805f4057c0febd586f173f000e1.stex" ]
+source_file="res://assets/gfx/fireball_cyan.png"
+dest_files=[ "res://.import/fireball_cyan.png-ca6428da81cf19a0836c77c1a5626abb.stex" ]
 
 [params]
 

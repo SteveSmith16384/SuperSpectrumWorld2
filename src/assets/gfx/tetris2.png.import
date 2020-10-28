@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tetris2.png-fd2bca5d155e63335007e4b1e1b15485.stex"
+path="res://.import/tetris2.png-b7d64d8f4cae244a0c9637841d02213c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/tetris2.png"
-dest_files=[ "res://.import/tetris2.png-fd2bca5d155e63335007e4b1e1b15485.stex" ]
+source_file="res://assets/gfx/tetris2.png"
+dest_files=[ "res://.import/tetris2.png-b7d64d8f4cae244a0c9637841d02213c.stex" ]
 
 [params]
 

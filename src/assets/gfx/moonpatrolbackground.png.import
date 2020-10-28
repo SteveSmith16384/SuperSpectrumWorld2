@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/moonpatrolbackground.png-daa4980f601e7600757eb31e893273ac.stex"
+path="res://.import/moonpatrolbackground.png-bbf3b565ca06cf9d25830652daeb1b44.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/moonpatrolbackground.png"
-dest_files=[ "res://.import/moonpatrolbackground.png-daa4980f601e7600757eb31e893273ac.stex" ]
+source_file="res://assets/gfx/moonpatrolbackground.png"
+dest_files=[ "res://.import/moonpatrolbackground.png-bbf3b565ca06cf9d25830652daeb1b44.stex" ]
 
 [params]
 

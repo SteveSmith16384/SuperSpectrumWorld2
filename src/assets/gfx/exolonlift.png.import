@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/exolonlift.png-5a881573bc06cd4f1c8b4bee40185112.stex"
+path="res://.import/exolonlift.png-8c6b34a32b56aeca4ab0581835d31b37.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/exolonlift.png"
-dest_files=[ "res://.import/exolonlift.png-5a881573bc06cd4f1c8b4bee40185112.stex" ]
+source_file="res://assets/gfx/exolonlift.png"
+dest_files=[ "res://.import/exolonlift.png-8c6b34a32b56aeca4ab0581835d31b37.stex" ]
 
 [params]
 

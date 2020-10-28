@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/nemesiswarlockbackground.png-d6d5d117c8c60ba0b221eaa22473c85a.stex"
+path="res://.import/nemesiswarlockbackground.png-a08588b68591111ccbe34c2a10a60a05.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/nemesiswarlockbackground.png"
-dest_files=[ "res://.import/nemesiswarlockbackground.png-d6d5d117c8c60ba0b221eaa22473c85a.stex" ]
+source_file="res://assets/gfx/nemesiswarlockbackground.png"
+dest_files=[ "res://.import/nemesiswarlockbackground.png-a08588b68591111ccbe34c2a10a60a05.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/horaceambulance.png-c1c5c9175a4caccdabf1f4a74bdc6dd8.stex"
+path="res://.import/horaceambulance.png-07d6372c7ff9083103aab592fed84174.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/horaceambulance.png"
-dest_files=[ "res://.import/horaceambulance.png-c1c5c9175a4caccdabf1f4a74bdc6dd8.stex" ]
+source_file="res://assets/gfx/horaceambulance.png"
+dest_files=[ "res://.import/horaceambulance.png-07d6372c7ff9083103aab592fed84174.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rtypeship.png-0442c3f8cf2ebae9df05a5b0e9ccb4f3.stex"
+path="res://.import/rtypeship.png-20509d681cf58168ce9ea3f1738c4bfb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/rtypeship.png"
-dest_files=[ "res://.import/rtypeship.png-0442c3f8cf2ebae9df05a5b0e9ccb4f3.stex" ]
+source_file="res://assets/gfx/rtypeship.png"
+dest_files=[ "res://.import/rtypeship.png-20509d681cf58168ce9ea3f1738c4bfb.stex" ]
 
 [params]
 

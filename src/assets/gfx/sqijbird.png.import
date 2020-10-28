@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sqijbird.png-3556206efec7a708fc0fa7b7c1b12f8f.stex"
+path="res://.import/sqijbird.png-75941408d66e0c8efb8d2df529d23142.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sqijbird.png"
-dest_files=[ "res://.import/sqijbird.png-3556206efec7a708fc0fa7b7c1b12f8f.stex" ]
+source_file="res://assets/gfx/sqijbird.png"
+dest_files=[ "res://.import/sqijbird.png-75941408d66e0c8efb8d2df529d23142.stex" ]
 
 [params]
 

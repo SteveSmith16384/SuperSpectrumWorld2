@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/the-bathroom.png-de85f069eadc2b351a914ae2f3838d71.stex"
+path="res://.import/the-bathroom.png-516f3a1668a6f323419c69954a451665.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/the-bathroom.png"
-dest_files=[ "res://.import/the-bathroom.png-de85f069eadc2b351a914ae2f3838d71.stex" ]
+source_file="res://assets/gfx/the-bathroom.png"
+dest_files=[ "res://.import/the-bathroom.png-516f3a1668a6f323419c69954a451665.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jetpac.png-c463bf8d63b4197527b6c458f4ec499d.stex"
+path="res://.import/jetpac.png-75bc6abd67a8efe60f065043f716306b.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/jetpac.png"
-dest_files=[ "res://.import/jetpac.png-c463bf8d63b4197527b6c458f4ec499d.stex" ]
+source_file="res://assets/gfx/jetpac.png"
+dest_files=[ "res://.import/jetpac.png-75bc6abd67a8efe60f065043f716306b.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/throbrickyellow.png-94d25ca1f6b79d0d692db1db79e2ea0f.stex"
+path="res://.import/throbrickyellow.png-b5ae245d2168ef1549675a7f7697f27f.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/throbrickyellow.png"
-dest_files=[ "res://.import/throbrickyellow.png-94d25ca1f6b79d0d692db1db79e2ea0f.stex" ]
+source_file="res://assets/gfx/throbrickyellow.png"
+dest_files=[ "res://.import/throbrickyellow.png-b5ae245d2168ef1549675a7f7697f27f.stex" ]
 
 [params]
 

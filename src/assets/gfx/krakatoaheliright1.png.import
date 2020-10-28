@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/krakatoaheliright1.png-b16ec6103cdf467dd7a6d09b07685432.stex"
+path="res://.import/krakatoaheliright1.png-9c7e5075a733e7ea7fbfead76584b19c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/krakatoaheliright1.png"
-dest_files=[ "res://.import/krakatoaheliright1.png-b16ec6103cdf467dd7a6d09b07685432.stex" ]
+source_file="res://assets/gfx/krakatoaheliright1.png"
+dest_files=[ "res://.import/krakatoaheliright1.png-9c7e5075a733e7ea7fbfead76584b19c.stex" ]
 
 [params]
 

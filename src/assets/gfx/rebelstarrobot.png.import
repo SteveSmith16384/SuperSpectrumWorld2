@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rebelstarrobot.png-695b518d615c0a8b1ff4cc13b061e267.stex"
+path="res://.import/rebelstarrobot.png-07b1865ed5dd58808ef44580f5cc79cd.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/rebelstarrobot.png"
-dest_files=[ "res://.import/rebelstarrobot.png-695b518d615c0a8b1ff4cc13b061e267.stex" ]
+source_file="res://assets/gfx/rebelstarrobot.png"
+dest_files=[ "res://.import/rebelstarrobot.png-07b1865ed5dd58808ef44580f5cc79cd.stex" ]
 
 [params]
 

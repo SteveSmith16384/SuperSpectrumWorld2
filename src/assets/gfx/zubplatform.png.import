@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/zubplatform.png-68f6001211c6af0c9054be181d8a0d67.stex"
+path="res://.import/zubplatform.png-dfefab75681320fb0d42d86247ae5acf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/zubplatform.png"
-dest_files=[ "res://.import/zubplatform.png-68f6001211c6af0c9054be181d8a0d67.stex" ]
+source_file="res://assets/gfx/zubplatform.png"
+dest_files=[ "res://.import/zubplatform.png-dfefab75681320fb0d42d86247ae5acf.stex" ]
 
 [params]
 

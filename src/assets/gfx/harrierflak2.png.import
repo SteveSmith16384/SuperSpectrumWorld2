@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/harrierflak2.png-8f7f3f54911f15aa0ebb6cca9d25b2ef.stex"
+path="res://.import/harrierflak2.png-52107f1b7b78dadbc376779a604afd40.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/harrierflak2.png"
-dest_files=[ "res://.import/harrierflak2.png-8f7f3f54911f15aa0ebb6cca9d25b2ef.stex" ]
+source_file="res://assets/gfx/harrierflak2.png"
+dest_files=[ "res://.import/harrierflak2.png-52107f1b7b78dadbc376779a604afd40.stex" ]
 
 [params]
 

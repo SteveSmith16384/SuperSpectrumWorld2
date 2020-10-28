@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rtypebullet.png-501c5f82fff42c11ffa5ee3cb9e3531d.stex"
+path="res://.import/rtypebullet.png-40ba52b764c8de7b8f36178158f08bc3.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/rtypebullet.png"
-dest_files=[ "res://.import/rtypebullet.png-501c5f82fff42c11ffa5ee3cb9e3531d.stex" ]
+source_file="res://assets/gfx/rtypebullet.png"
+dest_files=[ "res://.import/rtypebullet.png-40ba52b764c8de7b8f36178158f08bc3.stex" ]
 
 [params]
 

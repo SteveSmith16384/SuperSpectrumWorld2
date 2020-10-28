@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mm_collapsingfloor.png-6812efb688c5fe3965b9df7994f92623.stex"
+path="res://.import/mm_collapsingfloor.png-2d3e164b6009445e6f8001c9b0846895.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mm_collapsingfloor.png"
-dest_files=[ "res://.import/mm_collapsingfloor.png-6812efb688c5fe3965b9df7994f92623.stex" ]
+source_file="res://assets/gfx/mm_collapsingfloor.png"
+dest_files=[ "res://.import/mm_collapsingfloor.png-2d3e164b6009445e6f8001c9b0846895.stex" ]
 
 [params]
 

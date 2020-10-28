@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jswrazorblade.png-dd8eba4c761de9169bca686459f298d8.stex"
+path="res://.import/jswrazorblade.png-e94bf9b474df396dd4baaa51e2a97ddb.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/jswrazorblade.png"
-dest_files=[ "res://.import/jswrazorblade.png-dd8eba4c761de9169bca686459f298d8.stex" ]
+source_file="res://assets/gfx/jswrazorblade.png"
+dest_files=[ "res://.import/jswrazorblade.png-e94bf9b474df396dd4baaa51e2a97ddb.stex" ]
 
 [params]
 

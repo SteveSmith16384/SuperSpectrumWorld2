@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jswmonk.png-5616e610130c36112fa18753d2c8d6c7.stex"
+path="res://.import/jswmonk.png-199da92d14c7a8dd1a03898f3b2acad0.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/jswmonk.png"
-dest_files=[ "res://.import/jswmonk.png-5616e610130c36112fa18753d2c8d6c7.stex" ]
+source_file="res://assets/gfx/jswmonk.png"
+dest_files=[ "res://.import/jswmonk.png-199da92d14c7a8dd1a03898f3b2acad0.stex" ]
 
 [params]
 

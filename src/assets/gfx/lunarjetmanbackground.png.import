@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/lunarjetmanbackground.png-e2a6b4e4f1555fe6f49e562e29b44f38.stex"
+path="res://.import/lunarjetmanbackground.png-c3129668c4d6bce03dce76b4acefd338.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/lunarjetmanbackground.png"
-dest_files=[ "res://.import/lunarjetmanbackground.png-e2a6b4e4f1555fe6f49e562e29b44f38.stex" ]
+source_file="res://assets/gfx/lunarjetmanbackground.png"
+dest_files=[ "res://.import/lunarjetmanbackground.png-c3129668c4d6bce03dce76b4acefd338.stex" ]
 
 [params]
 

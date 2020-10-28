@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jsw_willy.png-6bc477454fbbea378e39e56da7b1dc8d.stex"
+path="res://.import/jsw_willy.png-2ca83c8a4fbac600f6ec6497e0a6be0e.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/jsw_willy.png"
-dest_files=[ "res://.import/jsw_willy.png-6bc477454fbbea378e39e56da7b1dc8d.stex" ]
+source_file="res://assets/gfx/jsw_willy.png"
+dest_files=[ "res://.import/jsw_willy.png-2ca83c8a4fbac600f6ec6497e0a6be0e.stex" ]
 
 [params]
 

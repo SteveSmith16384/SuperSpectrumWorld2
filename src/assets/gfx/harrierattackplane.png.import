@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/harrierattackplane.png-6172a8bb1a164a69ea582cd0c417022e.stex"
+path="res://.import/harrierattackplane.png-2b573499e32a8a35df887410f7d68574.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/harrierattackplane.png"
-dest_files=[ "res://.import/harrierattackplane.png-6172a8bb1a164a69ea582cd0c417022e.stex" ]
+source_file="res://assets/gfx/harrierattackplane.png"
+dest_files=[ "res://.import/harrierattackplane.png-2b573499e32a8a35df887410f7d68574.stex" ]
 
 [params]
 

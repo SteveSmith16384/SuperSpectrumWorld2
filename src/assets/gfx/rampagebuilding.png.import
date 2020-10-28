@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/rampagebuilding.png-3a1022010f04359cb4f102b9b3831ea2.stex"
+path="res://.import/rampagebuilding.png-3176c91fceaebce0516cc67cb84e43a1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/rampagebuilding.png"
-dest_files=[ "res://.import/rampagebuilding.png-3a1022010f04359cb4f102b9b3831ea2.stex" ]
+source_file="res://assets/gfx/rampagebuilding.png"
+dest_files=[ "res://.import/rampagebuilding.png-3176c91fceaebce0516cc67cb84e43a1.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chaoswizard1.png-e42626b2e78a191095ea12851e6824e3.stex"
+path="res://.import/chaoswizard1.png-43797e3ab288aadd73b79e94b5fd2ccf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chaoswizard1.png"
-dest_files=[ "res://.import/chaoswizard1.png-e42626b2e78a191095ea12851e6824e3.stex" ]
+source_file="res://assets/gfx/chaoswizard1.png"
+dest_files=[ "res://.import/chaoswizard1.png-43797e3ab288aadd73b79e94b5fd2ccf.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/throbrickred.png-fef3015df8c41ff975268523924309fc.stex"
+path="res://.import/throbrickred.png-8b0b91045708614c6a48d5ce16bc3efc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/throbrickred.png"
-dest_files=[ "res://.import/throbrickred.png-fef3015df8c41ff975268523924309fc.stex" ]
+source_file="res://assets/gfx/throbrickred.png"
+dest_files=[ "res://.import/throbrickred.png-8b0b91045708614c6a48d5ce16bc3efc.stex" ]
 
 [params]
 

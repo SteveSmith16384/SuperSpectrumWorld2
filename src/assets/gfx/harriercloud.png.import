@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/harriercloud.png-5d66e534e8f5baeb7c44dcc7bf6c9e0b.stex"
+path="res://.import/harriercloud.png-1fa1dd5614f84e1e47899ad54d8850a6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/harriercloud.png"
-dest_files=[ "res://.import/harriercloud.png-5d66e534e8f5baeb7c44dcc7bf6c9e0b.stex" ]
+source_file="res://assets/gfx/harriercloud.png"
+dest_files=[ "res://.import/harriercloud.png-1fa1dd5614f84e1e47899ad54d8850a6.stex" ]
 
 [params]
 

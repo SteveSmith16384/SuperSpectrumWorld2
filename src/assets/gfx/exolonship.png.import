@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/exolonship.png-2b991ebe4e6998befc3735dca0af9237.stex"
+path="res://.import/exolonship.png-4c498a39015ee8be03956d5b3c6fa744.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/exolonship.png"
-dest_files=[ "res://.import/exolonship.png-2b991ebe4e6998befc3735dca0af9237.stex" ]
+source_file="res://assets/gfx/exolonship.png"
+dest_files=[ "res://.import/exolonship.png-4c498a39015ee8be03956d5b3c6fa744.stex" ]
 
 [params]
 

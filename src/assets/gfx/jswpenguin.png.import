@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/jswpenguin.png-e6d5e97d8f9a14b7e3dc8a524a275f3c.stex"
+path="res://.import/jswpenguin.png-6b668b0d6a30cebd2aba50be74dcdae6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/jswpenguin.png"
-dest_files=[ "res://.import/jswpenguin.png-e6d5e97d8f9a14b7e3dc8a524a275f3c.stex" ]
+source_file="res://assets/gfx/jswpenguin.png"
+dest_files=[ "res://.import/jswpenguin.png-6b668b0d6a30cebd2aba50be74dcdae6.stex" ]
 
 [params]
 

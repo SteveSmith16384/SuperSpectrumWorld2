@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/sabremanfalling.png-e99e37cb5593b4b082a41d0bb7d74079.stex"
+path="res://.import/sabremanfalling.png-d87e3d45c104d24b33bf58d34edb67f6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sabremanfalling.png"
-dest_files=[ "res://.import/sabremanfalling.png-e99e37cb5593b4b082a41d0bb7d74079.stex" ]
+source_file="res://assets/gfx/sabremanfalling.png"
+dest_files=[ "res://.import/sabremanfalling.png-d87e3d45c104d24b33bf58d34edb67f6.stex" ]
 
 [params]
 

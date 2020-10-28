@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/mmrobotframes_right.png-ec48c11b1ddcb32d8a0c415fb7720cb9.stex"
+path="res://.import/mmrobotframes_right.png-828ea6526a3e16c9f6364b7af7416f7d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/mmrobotframes_right.png"
-dest_files=[ "res://.import/mmrobotframes_right.png-ec48c11b1ddcb32d8a0c415fb7720cb9.stex" ]
+source_file="res://assets/gfx/mmrobotframes_right.png"
+dest_files=[ "res://.import/mmrobotframes_right.png-828ea6526a3e16c9f6364b7af7416f7d.stex" ]
 
 [params]
 

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chaosunicorn.png-a8a5930817d9feef2c29f63ea3ffafec.stex"
+path="res://.import/chaosunicorn.png-2c04977274521b90c8e3f92255cdfe81.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/chaosunicorn.png"
-dest_files=[ "res://.import/chaosunicorn.png-a8a5930817d9feef2c29f63ea3ffafec.stex" ]
+source_file="res://assets/gfx/chaosunicorn.png"
+dest_files=[ "res://.import/chaosunicorn.png-2c04977274521b90c8e3f92255cdfe81.stex" ]
 
 [params]
 
