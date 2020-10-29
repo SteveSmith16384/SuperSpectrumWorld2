@@ -28,4 +28,4 @@ func _physics_process(delta):
 		patrol_index = wrapi(patrol_index + 1, 0, patrol_points.size())
 		target = patrol_points[patrol_index]
 	var velocity = (target - $Saw.position).normalized() * 100
-	velocity = $Saw.move_and_slide(velocity)
+	#$Saw.position += velocity * delta

@@ -23,7 +23,7 @@ func _process(delta):
 				
 func _input(event):
 	if event.is_action_pressed("jump") && can_jump:
-		velocity.y = -GRAVITY * 50
+		velocity.y = -GRAVITY * 30
 		
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _physics_process(delta):
@@ -46,8 +46,10 @@ func _physics_process(delta):
 	# Move left/right
 	motion = velocity * delta
 	motion.y = 0
-	move_and_collide(motion)
-
+	var collision = move_and_collide(motion)
+	#if (collision):
+	#	print(collision.collider.to_string())
+		
 	velocity.x = 0
 	#velocity.y = 0
 	
