@@ -15,6 +15,7 @@ _data = {
 }
 
 [node name="TheBathroom" type="Node2D"]
+scale = Vector2( 2, 2 )
 script = ExtResource( 3 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]

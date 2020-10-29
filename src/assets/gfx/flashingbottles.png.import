@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/chaos.png-3d18a8b7a5a50715b6a5eb596f5c6f57.stex"
+path="res://.import/flashingbottles.png-47256ae378aa59e07fdb24d3e0e45621.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/gfx/chaos.png"
-dest_files=[ "res://.import/chaos.png-3d18a8b7a5a50715b6a5eb596f5c6f57.stex" ]
+source_file="res://assets/gfx/flashingbottles.png"
+dest_files=[ "res://.import/flashingbottles.png-47256ae378aa59e07fdb24d3e0e45621.stex" ]
 
 [params]
 
