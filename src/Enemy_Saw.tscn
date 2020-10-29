@@ -2,7 +2,7 @@
 
 [ext_resource path="res://assets/gfx/graficos_jet_set_willy.png" type="Texture" id=1]
 
-[sub_resource type="RectangleShape2D" id=7]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 13.4776, 13.8588 )
 
 [sub_resource type="AtlasTexture" id=2]
@@ -36,10 +36,10 @@ animations = [ {
 [node name="KinematicBody2D" type="KinematicBody2D"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 7 )
+shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 2, 2 )
 frames = SubResource( 6 )
-frame = 3
+frame = 2
 playing = true

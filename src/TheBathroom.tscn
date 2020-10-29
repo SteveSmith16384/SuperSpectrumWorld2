@@ -1,15 +1,21 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://assets/backgrounds/the-bathroom.png" type="Texture" id=1]
 [ext_resource path="res://Enemy_Saw.tscn" type="PackedScene" id=2]
-
+[ext_resource path="res://TheBathroom.gd" type="Script" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 260, 10 )
 
 [sub_resource type="RectangleShape2D" id=2]
 
+[sub_resource type="Curve2D" id=3]
+_data = {
+"points": PoolVector2Array( 0, 0, 0, 0, -85.9762, 97.529, 0, 0, 0, 0, 204.436, 96.899 )
+}
+
 [node name="TheBathroom" type="Node2D"]
+script = ExtResource( 3 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 position = Vector2( 1, 0 )
@@ -28,5 +34,8 @@ scale = Vector2( -9.19596, 0.402662 )
 shape = SubResource( 2 )
 one_way_collision = true
 
-[node name="KinematicBody2D" parent="." instance=ExtResource( 2 )]
+[node name="Saw" parent="." instance=ExtResource( 2 )]
 position = Vector2( 48.0832, 95.1058 )
+
+[node name="Path2D" type="Path2D" parent="."]
+curve = SubResource( 3 )
