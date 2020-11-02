@@ -1,8 +1,9 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://entities/Player.gd" type="Script" id=1]
 [ext_resource path="res://assets/gfx/jsw_willy.png" type="Texture" id=2]
 [ext_resource path="res://components/MovementComponent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://components/IsPlayerComponent.tscn" type="PackedScene" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -78,3 +79,5 @@ __meta__ = {
 [node name="Components" type="Node" parent="."]
 
 [node name="MovementComponent" parent="Components" instance=ExtResource( 3 )]
+
+[node name="IsPlayerComponent" parent="Components" instance=ExtResource( 4 )]

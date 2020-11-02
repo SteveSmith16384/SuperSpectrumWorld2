@@ -17,6 +17,7 @@ func on_process_entity(entity : Entity, delta: float):
 		motion.x = 0
 		var res = entity.move_and_collide(motion)
 		if (res):
+			collision(entity, res)
 			c.can_jump = true
 			c.velocity.y = 0 # Reset falling speed if we hit something
 		else:
@@ -26,8 +27,20 @@ func on_process_entity(entity : Entity, delta: float):
 	motion = c.velocity * delta
 	if motion.x != 0:
 		motion.y = 0
-		var collision = entity.move_and_collide(motion)
-		#if (collision):
+		var res = entity.move_and_collide(motion)
+		if (res):
+			collision(entity, res)
 		#	print(collision.collider.to_string())
 			
 	c.velocity.x = 0
+
+
+func collision(mover, with):
+	if "id" in with.collider:
+		var player = ECS.entity_get_component(mover.id, "isplayercomponent")
+		if player:
+			var c = ECS.entity_get_component(with.collider.id, "harmsplayercomponent")
+			if c:
+				print("Player killed")
+	
+	pass
