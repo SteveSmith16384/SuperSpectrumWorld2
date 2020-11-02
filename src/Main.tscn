@@ -33,6 +33,7 @@ script = ExtResource( 2 )
 current = true
 
 [node name="Player" parent="." instance=ExtResource( 1 )]
+position = Vector2( -776, 158 )
 
 [node name="Systems" type="Node" parent="."]
 script = SubResource( 1 )

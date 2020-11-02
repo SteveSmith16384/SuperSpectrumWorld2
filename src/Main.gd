@@ -7,6 +7,9 @@ func _ready():
 
 func _process(delta):
 	var player = $Player
+	
+	$Camera2D.position = player.position
+	
 	var c = ECS.entity_get_component(player.id, "movementcomponent")
 
 	if Input.is_action_pressed("ui_left"):
