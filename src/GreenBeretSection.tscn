@@ -7,7 +7,7 @@
 extents = Vector2( 60.513, 10 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 10, 7.49159 )
+extents = Vector2( 10.0894, 7.49159 )
 
 [sub_resource type="RectangleShape2D" id=3]
 
@@ -26,8 +26,32 @@ scale = Vector2( 5.65333, 1 )
 shape = SubResource( 1 )
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( -209.768, 40.281 )
-scale = Vector2( 3.93333, 1 )
+position = Vector2( -210.767, 40.281 )
+scale = Vector2( 4.02666, 1 )
+shape = SubResource( 2 )
+one_way_collision = true
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( -115.125, 40.281 )
+scale = Vector2( 4.02666, 1 )
+shape = SubResource( 2 )
+one_way_collision = true
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( -18.9835, 40.7804 )
+scale = Vector2( 4.02666, 1 )
+shape = SubResource( 2 )
+one_way_collision = true
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 76.6584, 40.5307 )
+scale = Vector2( 4.02666, 1 )
+shape = SubResource( 2 )
+one_way_collision = true
+
+[node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( 173.05, 39.5318 )
+scale = Vector2( 4.02666, 1 )
 shape = SubResource( 2 )
 one_way_collision = true
 
@@ -36,6 +60,22 @@ position = Vector2( -163.157, 48.3822 )
 scale = Vector2( 0.573333, 1.6 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 167.253, -0.312147 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 334.506, 0 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D5" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 501.323, 0.156075 )
+shape = SubResource( 3 )
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( -167.253, -0.312147 )
 shape = SubResource( 3 )
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]

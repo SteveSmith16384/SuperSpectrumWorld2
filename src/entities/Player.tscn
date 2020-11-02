@@ -51,12 +51,12 @@ animations = [ {
 "frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ) ],
 "loop": true,
 "name": "left",
-"speed": 5.0
+"speed": 7.0
 }, {
 "frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
 "loop": true,
 "name": "right",
-"speed": 5.0
+"speed": 7.0
 } ]
 
 [node name="Player" type="KinematicBody2D"]
