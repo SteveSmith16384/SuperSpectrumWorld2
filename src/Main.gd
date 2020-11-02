@@ -14,7 +14,9 @@ func _process(delta):
 	elif Input.is_action_pressed("ui_right"):
 		c.velocity.x = 200
 	if Input.is_action_pressed("jump"):
-		c.velocity.y = -200
+		if c.can_jump:
+			c.velocity.y = -200
+			c.can_jump = false
 		
 	ECS.update()
 
