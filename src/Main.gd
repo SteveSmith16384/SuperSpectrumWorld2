@@ -25,7 +25,7 @@ func _process(delta):
 		
 	if Input.is_action_pressed("jump"):
 		if c.can_jump:
-			c.velocity.y += -250
+			c.velocity.y = -250
 			c.can_jump = false
 	elif Input.is_action_pressed("down"):
 		c.velocity.y += 20

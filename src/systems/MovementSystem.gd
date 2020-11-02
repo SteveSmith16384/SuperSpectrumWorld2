@@ -47,13 +47,23 @@ func on_process_entity(entity : Entity, delta: float):
 
 func collision(mover, with):
 	if "id" in with.collider:
-		var player = ECS.entity_get_component(mover.id, "isplayercomponent")
-		if player:
-			var c = ECS.entity_get_component(with.collider.id, "harmsplayercomponent")
-			if c:
-				if (with.normal.y < 0):
-					ECS.remove_entity(with.collider)
-				else:
-					print("Player killed")
-	
+		if ECS.entity_has_component(mover.id, "isplayercomponent"):
+			var player = ECS.entity_get_component(mover.id, "isplayercomponent")
+			process_collision(player, with.collider, with)	
+		elif ECS.entity_has_component(with.collider.id, "isplayercomponent"):
+			var player = ECS.entity_get_component(with.collider.id, "isplayercomponent")
+			process_collision(player, mover, with)
 	pass
+
+
+func process_collision(player, other, collision):
+	if ECS.entity_has_component(other.id, "harmsplayercomponent"):
+		#var c = ECS.entity_get_component(other.id, "harmsplayercomponent")
+		if (collision.normal.y < 0):
+			ECS.remove_entity(other)
+		else:
+			print("Player killed")
+	
+	
+	
+	
