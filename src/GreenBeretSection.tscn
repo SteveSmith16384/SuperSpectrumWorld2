@@ -2,7 +2,7 @@
 
 [ext_resource path="res://assets/backgrounds/greenberet.png" type="Texture" id=1]
 [ext_resource path="res://GreenBeretSection.gd" type="Script" id=2]
-[ext_resource path="res://entities/EnemyEntity.tscn" type="PackedScene" id=3]
+[ext_resource path="res://entities/MMRobot.tscn" type="PackedScene" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 60.513, 10 )
@@ -79,7 +79,7 @@ shape = SubResource( 3 )
 position = Vector2( -167.253, -0.312147 )
 shape = SubResource( 3 )
 
-[node name="EnemyEntity" parent="." instance=ExtResource( 3 )]
-position = Vector2( -190.456, 55.9275 )
+[node name="MMRobot" parent="." instance=ExtResource( 3 )]
+position = Vector2( -41.5311, 56.4973 )
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]
