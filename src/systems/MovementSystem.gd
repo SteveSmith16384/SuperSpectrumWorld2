@@ -3,6 +3,9 @@ extends System
 const GRAVITY = 10.0
 
 func on_process_entity(entity : Entity, delta: float):
+	if (entity == null):
+		return
+		
 	var c = ECS.entity_get_component(entity.id, "movementcomponent")
 
 	if c.affected_by_gravity:
@@ -48,6 +51,9 @@ func collision(mover, with):
 		if player:
 			var c = ECS.entity_get_component(with.collider.id, "harmsplayercomponent")
 			if c:
-				print("Player killed")
+				if (with.normal.y < 0):
+					ECS.remove_entity(with.collider)
+				else:
+					print("Player killed")
 	
 	pass
