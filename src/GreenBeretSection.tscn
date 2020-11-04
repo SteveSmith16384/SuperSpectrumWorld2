@@ -1,9 +1,10 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://assets/backgrounds/greenberet.png" type="Texture" id=1]
 [ext_resource path="res://GreenBeretSection.gd" type="Script" id=2]
 [ext_resource path="res://entities/MMRobot.tscn" type="PackedScene" id=3]
 [ext_resource path="res://entities/FlashingCollectable.tscn" type="PackedScene" id=4]
+[ext_resource path="res://entities/Ladder.tscn" type="PackedScene" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 60.513, 10 )
@@ -94,5 +95,15 @@ scale = Vector2( 3, 3 )
 
 [node name="FlashingCollectable" parent="Collectables" instance=ExtResource( 4 )]
 position = Vector2( -503.245, 64.6273 )
+
+[node name="Ladders" type="Node" parent="."]
+
+[node name="Ladder" parent="Ladders" instance=ExtResource( 5 )]
+position = Vector2( -679.727, 39.6875 )
+scale = Vector2( 0.8, 0.559999 )
+
+[node name="Ladder2" parent="Ladders" instance=ExtResource( 5 )]
+position = Vector2( -393.46, 43.1418 )
+scale = Vector2( 0.806975, 0.629396 )
 [connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
 [connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]

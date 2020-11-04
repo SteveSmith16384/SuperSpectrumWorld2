@@ -1,13 +1,13 @@
 extends Node2D
 
-# Called when the node enters the scene tree for the first time.
+var player
+
 func _ready():
+	player = $Player #get_node("Player")
 	pass # Replace with function body.
 
 
 func _process(delta):
-	var player = $Player
-	
 	$Camera2D.position = player.position
 	
 	var c = ECS.entity_get_component(player.id, "movementcomponent")

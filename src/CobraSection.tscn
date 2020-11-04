@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/backgrounds/cobra.png" type="Texture" id=1]
+[ext_resource path="res://CobraSection.gd" type="Script" id=2]
+[ext_resource path="res://entities/Ladder.tscn" type="PackedScene" id=3]
+
+[node name="CobraSection" type="Node2D"]
+scale = Vector2( 3, 3 )
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+
+[node name="Ladders" type="Node" parent="."]
+
+[node name="Ladder" parent="Ladders" instance=ExtResource( 3 )]
+position = Vector2( -1637.9, 146.151 )
+scale = Vector2( 5.24, 2.32 )
