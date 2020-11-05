@@ -1,0 +1,19 @@
+[gd_scene format=2]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="GridContainer" type="GridContainer" parent="."]
+margin_right = 57.0
+margin_bottom = 40.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="GridContainer"]
+margin_right = 57.0
+margin_bottom = 14.0
+text = "SCORE: 0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}

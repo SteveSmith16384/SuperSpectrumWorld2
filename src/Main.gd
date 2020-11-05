@@ -3,7 +3,9 @@ extends Node2D
 var player
 
 func _ready():
-	player = $Player #get_node("Player")
+	player = $Player
+	#var start_pos = 
+	#player.position
 	pass # Replace with function body.
 
 

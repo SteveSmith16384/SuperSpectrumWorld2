@@ -1,4 +1,4 @@
-extends Entity
+extends Area2D
 
 func _on_Ladder_body_entered(body):
 	if "id" in body:

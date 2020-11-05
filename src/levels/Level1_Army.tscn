@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://StartPosition.tscn" type="PackedScene" id=1]
+[ext_resource path="res://GreenBeretSection.tscn" type="PackedScene" id=2]
+[ext_resource path="res://CobraSection.tscn" type="PackedScene" id=3]
+
+[node name="Level1_Army" type="Node2D"]
+
+[node name="StartPosition" parent="." instance=ExtResource( 1 )]
+position = Vector2( -717.525, 155.6 )
+
+[node name="GreenBeretSection" parent="." instance=ExtResource( 2 )]
+
+[node name="CobraSection" parent="." instance=ExtResource( 3 )]
+position = Vector2( 2534.27, 18.3848 )

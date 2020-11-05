@@ -1,18 +1,33 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://assets/backgrounds/cobra.png" type="Texture" id=1]
 [ext_resource path="res://CobraSection.gd" type="Script" id=2]
 [ext_resource path="res://entities/Ladder.tscn" type="PackedScene" id=3]
 
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 10.455, 10 )
+
 [node name="CobraSection" type="Node2D"]
+position = Vector2( 3.1748, 0 )
 scale = Vector2( 3, 3 )
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 1 )
 
-[node name="Ladders" type="Node" parent="."]
+[node name="Ladders" type="Node2D" parent="."]
 
 [node name="Ladder" parent="Ladders" instance=ExtResource( 3 )]
-position = Vector2( -1637.9, 146.151 )
-scale = Vector2( 5.24, 2.32 )
+position = Vector2( -546.802, 48.0947 )
+scale = Vector2( -0.785754, 0.116321 )
+
+[node name="Ladder2" parent="Ladders" instance=ExtResource( 3 )]
+position = Vector2( 50.2232, 46.8307 )
+scale = Vector2( -0.565388, -0.0962591 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2( -17.3333, 64.6667 )
+scale = Vector2( -52.8059, 0.68 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+shape = SubResource( 1 )
