@@ -4,9 +4,6 @@ var player
 
 func _ready():
 	player = $Player
-	#var start_pos = 
-	#player.position
-	pass # Replace with function body.
 
 
 func _process(delta):
@@ -34,5 +31,4 @@ func _process(delta):
 		c.wants_to_move_down = true
 		
 	ECS.update()
-
 	pass

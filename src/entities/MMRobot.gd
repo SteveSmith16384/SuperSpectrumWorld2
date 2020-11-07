@@ -1,7 +1,7 @@
 extends Entity
 
-var seen = false
-#var frame_id = 0;
+#var seen = false
+
 
 func _ready():
 	var m = get_node("Components/MovementComponent")
@@ -9,12 +9,10 @@ func _ready():
 
 	var ai = get_node("Components/HasAIComponent")
 	ai.move_left = true
-
+	ai.move_speed = 25
 
 
 func _on_AnimatedSprite_frame_changed():
-	#frame_id = frame_id + 1
-	
 	var new_offset = $CollisionShape2D.position.x + ($AnimatedSprite.frame * -2)
 	$AnimatedSprite.offset.x = new_offset
 	pass # Replace with function body.

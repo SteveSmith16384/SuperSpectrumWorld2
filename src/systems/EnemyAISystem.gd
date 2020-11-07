@@ -8,5 +8,7 @@ func on_process_entity(entity : Entity, delta: float):
 	var move = ECS.entity_get_component(entity.id, "movementcomponent")
 	
 	if hasAI.move_left:
-		move.velocity.x = -10
+		move.velocity.x = -hasAI.move_speed
+	else:
+		move.velocity.x = hasAI.move_speed
 	pass
