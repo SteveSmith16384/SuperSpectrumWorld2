@@ -59,3 +59,4 @@ position = Vector2( 4.16223, 0 )
 frames = SubResource( 6 )
 frame = 1
 playing = true
+[connection signal="frame_changed" from="AnimatedSprite" to="." method="_on_AnimatedSprite_frame_changed"]
