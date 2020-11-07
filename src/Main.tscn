@@ -18,10 +18,10 @@ current = true
 [node name="Player" parent="." instance=ExtResource( 3 )]
 position = Vector2( -773.78, 46.3868 )
 
-[node name="Node" type="Node" parent="."]
+[node name="Systems" type="Node" parent="."]
 
-[node name="EnemyAISystem" parent="Node" instance=ExtResource( 5 )]
+[node name="EnemyAISystem" parent="Systems" instance=ExtResource( 5 )]
 
-[node name="RemoveWhenOffScreenSystem" parent="Node" instance=ExtResource( 6 )]
+[node name="RemoveWhenOffScreenSystem" parent="Systems" instance=ExtResource( 6 )]
 
-[node name="MovementSystem" parent="Node" instance=ExtResource( 4 )]
+[node name="MovementSystem" parent="Systems" instance=ExtResource( 4 )]
