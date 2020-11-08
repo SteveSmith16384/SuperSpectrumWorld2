@@ -36,13 +36,17 @@ animations = [ {
 [sub_resource type="RectangleShape2D" id=6]
 extents = Vector2( 3.68033, 4.91416 )
 
-[node name="FlashingCollectable" type="StaticBody2D"]
+[node name="FlashingCollectable" type="Area2D"]
 scale = Vector2( 2, 2 )
 script = ExtResource( 4 )
+__meta__ = {
+"_editor_description_": "Flashing Collectable
+"
+}
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 5 )
-frame = 3
+frame = 1
 playing = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
@@ -53,3 +57,6 @@ shape = SubResource( 6 )
 [node name="RemoveOnCollisionComponent" parent="Components" instance=ExtResource( 2 )]
 
 [node name="IncScoreOnCollision" parent="Components" instance=ExtResource( 3 )]
+[connection signal="area_entered" from="." to="." method="_on_FlashingCollectable_area_entered"]
+[connection signal="area_shape_entered" from="." to="." method="_on_FlashingCollectable_area_shape_entered"]
+[connection signal="body_entered" from="." to="." method="_on_FlashingCollectable_body_entered"]

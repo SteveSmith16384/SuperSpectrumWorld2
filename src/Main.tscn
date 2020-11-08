@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://levels/Level2_Space.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Main.gd" type="Script" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://systems/EnemyAISystem.tscn" type="PackedScene" id=5]
 [ext_resource path="res://systems/RemoveWhenOffScreenSystem.tscn" type="PackedScene" id=6]
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=7]
+[ext_resource path="res://systems/CollisionSystem.tscn" type="PackedScene" id=8]
 
 [node name="Main" type="Node2D"]
 script = ExtResource( 2 )
@@ -28,3 +29,5 @@ position = Vector2( -1257.94, 144.806 )
 [node name="RemoveWhenOffScreenSystem" parent="Systems" instance=ExtResource( 6 )]
 
 [node name="MovementSystem" parent="Systems" instance=ExtResource( 4 )]
+
+[node name="CollisionSystem" parent="Systems" instance=ExtResource( 8 )]

@@ -4,7 +4,7 @@
 [ext_resource path="res://entities/EnemyEntity.gd" type="Script" id=2]
 [ext_resource path="res://components/HarmsPlayerComponent.tscn" type="PackedScene" id=3]
 
-[sub_resource type="RectangleShape2D" id=7]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 3.30545, 7.57034 )
 
 [sub_resource type="AtlasTexture" id=2]
@@ -39,7 +39,7 @@ animations = [ {
 script = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource( 7 )
+shape = SubResource( 1 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 4.45952, 0 )
