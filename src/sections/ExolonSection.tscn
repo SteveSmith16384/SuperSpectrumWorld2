@@ -3,7 +3,7 @@
 [ext_resource path="res://assets/backgrounds/exolon.png" type="Texture" id=1]
 [ext_resource path="res://assets/gfx/exolon_planets.png" type="Texture" id=2]
 [ext_resource path="res://entities/ExolonRocketSpawn.tscn" type="PackedScene" id=3]
-[ext_resource path="res://entities/FlashingCollectable.tscn" type="PackedScene" id=4]
+[ext_resource path="res://entities/FlashingCollectableEntity.tscn" type="PackedScene" id=5]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 231.308, 26.2168 )
@@ -43,5 +43,9 @@ position = Vector2( 493.558, 81.9627 )
 
 [node name="Collectables" type="Node2D" parent="."]
 
-[node name="FlashingCollectable" parent="Collectables" instance=ExtResource( 4 )]
+[node name="FlashingCollectable" parent="Collectables" instance=ExtResource( 5 )]
 position = Vector2( -1076.21, 124.726 )
+
+[node name="CollisionEntityTest" parent="Collectables" instance=ExtResource( 5 )]
+position = Vector2( -889.117, 128.289 )
+scale = Vector2( 3.24, 3 )

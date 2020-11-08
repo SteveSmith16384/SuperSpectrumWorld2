@@ -23,7 +23,7 @@ func on_process_entity(entity : Entity, delta: float):
 		if entity.has_method("move_and_collide"):
 			var res = entity.move_and_collide(motion)
 			if (res):
-				collision(entity, res)
+				collision(entity, res.collider)
 				c.can_jump = true
 				c.velocity.y = 0 # Reset falling speed if we hit something
 			else:
@@ -38,7 +38,7 @@ func on_process_entity(entity : Entity, delta: float):
 		if entity.has_method("move_and_collide"):
 			var res = entity.move_and_collide(motion)
 			if (res):
-				collision(entity, res)
+				collision(entity, res.collider)
 		else:
 			entity.position.x += motion.x
 			

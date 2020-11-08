@@ -1,11 +1,9 @@
 extends Area2D
 
-signal area_entered
+signal collided
 
-func _ready():
-	pass # Replace with function body.
-
-
-func _on_CollidesComponent_area_entered(area):
-	emit_signal("area_entered")
+func _on_CollidesComponent_body_entered(body):
+	#emit_signal("collided", body)
+	var main = get_tree().get_root().get_node("Main/Systems/CollisionSystem")
+	main.collision(body, self.get_owner())
 	pass # Replace with function body.

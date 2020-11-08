@@ -1,0 +1,54 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://components/CollidesComponent.tscn" type="PackedScene" id=1]
+[ext_resource path="res://entities/FlashingCollectableEntity.gd" type="Script" id=2]
+[ext_resource path="res://assets/gfx/flashingbottles.png" type="Texture" id=3]
+[ext_resource path="res://components/RemoveOnCollisionComponent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://components/IncScoreOnCollision.tscn" type="PackedScene" id=5]
+
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 0, 0, 8, 8 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 8, 0, 8, 8 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 16, 0, 8, 8 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 3 )
+region = Rect2( 24, 0, 8, 8 )
+
+[sub_resource type="SpriteFrames" id=5]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 10.0
+} ]
+
+[node name="CollisionEntityTest" type="Node2D"]
+scale = Vector2( 3, 3 )
+script = ExtResource( 2 )
+
+[node name="CollidesComponent" parent="." instance=ExtResource( 1 )]
+scale = Vector2( 0.16, 0.213333 )
+
+[node name="Components" type="Node" parent="."]
+
+[node name="IncScoreOnCollision" parent="Components" instance=ExtResource( 5 )]
+
+[node name="RemoveOnCollisionComponent" parent="Components" instance=ExtResource( 4 )]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+frames = SubResource( 5 )
+frame = 1
+playing = true

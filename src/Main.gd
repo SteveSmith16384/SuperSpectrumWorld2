@@ -32,3 +32,10 @@ func _process(delta):
 		
 	ECS.update()
 	pass
+
+
+func test():
+	print("Works")
+	pass
+	
+	
