@@ -10,54 +10,54 @@
 [sub_resource type="AtlasTexture" id=2]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 240, 0, 60, 96 )
+region = Rect2( 0, 0, 60, 96 )
 
 [sub_resource type="AtlasTexture" id=3]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 300, 0, 60, 96 )
+region = Rect2( 60, 0, 60, 96 )
 
 [sub_resource type="AtlasTexture" id=4]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 360, 0, 60, 96 )
+region = Rect2( 120, 0, 60, 96 )
 
 [sub_resource type="AtlasTexture" id=5]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 420, 0, 60, 96 )
+region = Rect2( 180, 0, 60, 96 )
 
 [sub_resource type="AtlasTexture" id=6]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 0, 0, 60, 96 )
+region = Rect2( 240, 0, 60, 96 )
 
 [sub_resource type="AtlasTexture" id=7]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 60, 0, 60, 96 )
+region = Rect2( 300, 0, 60, 96 )
 
 [sub_resource type="AtlasTexture" id=8]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 120, 0, 60, 96 )
+region = Rect2( 360, 0, 60, 96 )
 
 [sub_resource type="AtlasTexture" id=9]
 flags = 4
 atlas = ExtResource( 2 )
-region = Rect2( 180, 0, 60, 96 )
+region = Rect2( 420, 0, 60, 96 )
 
 [sub_resource type="SpriteFrames" id=10]
 animations = [ {
 "frames": [ SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ) ],
 "loop": true,
-"name": "left",
-"speed": 7.0
+"name": "right",
+"speed": 12.0
 }, {
 "frames": [ SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ) ],
 "loop": true,
-"name": "right",
-"speed": 7.0
+"name": "left",
+"speed": 12.0
 } ]
 
 [node name="Player" type="KinematicBody2D"]

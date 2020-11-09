@@ -11,18 +11,24 @@ extents = Vector2( 231.308, 26.2168 )
 [node name="ExolonSection" type="Node2D"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+offset = Vector2( 0, -75 )
+transform = Transform2D( 1, 0, 0, 1, 0, -75 )
 follow_viewport_enable = true
 follow_viewport_scale = 0.5
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+position = Vector2( 258.509, -144.087 )
+scale = Vector2( 3, 3 )
 motion_scale = Vector2( 0.5, 0.5 )
-motion_mirroring = Vector2( 400, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
-position = Vector2( -1282.89, -65.9265 )
-scale = Vector2( 3, 3 )
+position = Vector2( -336.131, -30.2945 )
 texture = ExtResource( 2 )
-centered = false
+normal_map = ExtResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 106.535, -27.4128 )
+texture = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
 scale = Vector2( 3, 3 )

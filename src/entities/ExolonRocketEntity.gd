@@ -7,5 +7,5 @@ func _ready():
 
 	var ai = get_node("Components/HasAIComponent")
 	ai.move_left = true
-	ai.move_speed = 150
+	ai.move_speed = 300
 

@@ -10,5 +10,5 @@ func _on_RemoveWhenOffScreenComponent_screen_entered():
 func _on_RemoveWhenOffScreenComponent_screen_exited():
 	if on_screen:
 		ECS.remove_entity(get_owner())
-		print("Entity removed")
+		#print("Entity removed")
 	pass # Replace with function body.

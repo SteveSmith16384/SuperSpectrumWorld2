@@ -10,7 +10,8 @@ func on_process_entity(entity : Entity, delta: float):
 
 	if c.affected_by_gravity:
 		c.velocity.y += GRAVITY
-
+		pass
+		
 	if (c.affected_by_gravity == false && c.wants_to_move_down == false):
 		if c.velocity.y > 0:
 			c.velocity.y = 0
