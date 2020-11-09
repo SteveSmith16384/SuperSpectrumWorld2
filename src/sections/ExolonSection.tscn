@@ -17,8 +17,6 @@ follow_viewport_enable = true
 follow_viewport_scale = 0.5
 
 [node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
-position = Vector2( 258.509, -144.087 )
-scale = Vector2( 3, 3 )
 motion_scale = Vector2( 0.5, 0.5 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]

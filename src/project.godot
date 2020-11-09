@@ -20,6 +20,11 @@ _global_script_classes=[ {
 "path": "res://gs_ecs/entity.gd"
 }, {
 "base": "Node",
+"class": "GameData",
+"language": "GDScript",
+"path": "res://GameData.gd"
+}, {
+"base": "Node",
 "class": "Group",
 "language": "GDScript",
 "path": "res://gs_ecs/group.gd"
@@ -32,6 +37,7 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "Component": "",
 "Entity": "",
+"GameData": "",
 "Group": "",
 "System": ""
 }

@@ -22,9 +22,11 @@ func process_collision(player, other, normal):
 	if ECS.entity_has_component(other.id, "harmsplayercomponent"):
 		#var c = ECS.entity_get_component(other.id, "harmsplayercomponent")
 		if (normal.y < 0):
-			ECS.remove_entity(other) # todo
+			ECS.remove_entity(other)
 		else:
-			print("Player killed")
+			#print("Player killed")
+			var main = get_tree().get_root().get_node("Main")
+			main.player_killed()
 	
 	if ECS.entity_has_component(other.id, "removeoncollisioncomponent"):
 		ECS.remove_entity(other)
