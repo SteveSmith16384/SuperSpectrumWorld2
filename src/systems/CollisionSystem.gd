@@ -9,11 +9,11 @@ func collision(mover, with, normal):
 	if "id" in with:
 		if normal == null:
 			normal = Vector2(0,0)
-		if ECS.entity_has_component(mover.id, "isplayercomponent"):
+		if ECS.entity_has_component(mover, "isplayercomponent"):
 			var player = ECS.entity_get_component(mover.id, "isplayercomponent")
 			process_collision(player, with, normal)	
-		elif ECS.entity_has_component(with.id, "isplayercomponent"):
-			var player = ECS.entity_get_component(with.id, "isplayercomponent")
+		elif ECS.entity_has_component(with, "isplayercomponent"):
+			var player = ECS.entity_get_component(with, "isplayercomponent")
 			process_collision(player, mover, normal)
 	pass
 

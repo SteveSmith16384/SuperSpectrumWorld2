@@ -6,13 +6,13 @@ const DEC = .99
 const MAX = 200
 const MIN = 4
 
-var player
+var player : Player
 var momentum = Vector2(0, 0)
 
-var game_data
+var game_data : GameData
 
 var player_dying = false
-var restart_position
+var restart_position : Vector2
 
 
 func _ready():
@@ -27,7 +27,7 @@ func _process(delta):
 	$Camera2D.position = player.position
 	
 	# Player movement
-	var c = ECS.entity_get_component(player.id, "movementcomponent")
+	var c = ECS.entity_get_component(player, "movementcomponent")
 
 	if player_dying:
 		pass
@@ -83,3 +83,9 @@ func _on_RestartTimer_timeout():
 	$Player.position = restart_position
 	player_dying = false
 	$Player.get_node("AnimatedSprite").visible = true
+
+
+func inc_score(amt):
+	game_data.score += amt
+	#todo
+	

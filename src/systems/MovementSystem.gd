@@ -6,7 +6,7 @@ func on_process_entity(entity : Entity, delta: float):
 	if (entity == null):
 		return
 		
-	var c = ECS.entity_get_component(entity.id, "movementcomponent")
+	var c = ECS.entity_get_component(entity, "movementcomponent")
 
 	if c.affected_by_gravity:
 		c.velocity.y += GRAVITY
