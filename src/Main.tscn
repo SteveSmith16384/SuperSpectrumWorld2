@@ -20,7 +20,7 @@ current = true
 [node name="Level1_Army" parent="." instance=ExtResource( 1 )]
 
 [node name="Player" parent="." instance=ExtResource( 3 )]
-position = Vector2( -1257.94, 144.806 )
+position = Vector2( -4372.38, 40.806 )
 
 [node name="Systems" type="Node" parent="."]
 

@@ -11,7 +11,7 @@
 [node name="Level1_Army" type="Node2D"]
 
 [node name="StartPosition" parent="." instance=ExtResource( 1 )]
-position = Vector2( -717.525, 155.6 )
+position = Vector2( -4151.55, 139.893 )
 
 [node name="ManicMinerSection" parent="." instance=ExtResource( 4 )]
 position = Vector2( -7012.13, 101.289 )
