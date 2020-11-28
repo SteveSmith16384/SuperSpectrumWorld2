@@ -10,7 +10,7 @@ func collision(mover, with, normal):
 		if normal == null:
 			normal = Vector2(0,0)
 		if ECS.entity_has_component(mover, "isplayercomponent"):
-			var player = ECS.entity_get_component(mover.id, "isplayercomponent")
+			var player = ECS.entity_get_component(mover, "isplayercomponent")
 			process_collision(player, with, normal)	
 		elif ECS.entity_has_component(with, "isplayercomponent"):
 			var player = ECS.entity_get_component(with, "isplayercomponent")
@@ -19,7 +19,7 @@ func collision(mover, with, normal):
 
 
 func process_collision(player, other, normal):
-	if ECS.entity_has_component(other.id, "harmsplayercomponent"):
+	if ECS.entity_has_component(other, "harmsplayercomponent"):
 		#var c = ECS.entity_get_component(other.id, "harmsplayercomponent")
 		if (normal.y < 0):
 			ECS.remove_entity(other)
@@ -28,10 +28,10 @@ func process_collision(player, other, normal):
 			var main = get_tree().get_root().get_node("Main")
 			main.player_killed()
 	
-	if ECS.entity_has_component(other.id, "removeoncollisioncomponent"):
+	if ECS.entity_has_component(other, "removeoncollisioncomponent"):
 		ECS.remove_entity(other)
 	
-	if ECS.entity_has_component(other.id, "incscoreoncollision"):
+	if ECS.entity_has_component(other, "incscoreoncollision"):
 		# todo
 		pass
 	

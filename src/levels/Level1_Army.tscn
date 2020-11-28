@@ -14,10 +14,10 @@
 position = Vector2( -717.525, 155.6 )
 
 [node name="ManicMinerSection" parent="." instance=ExtResource( 4 )]
-position = Vector2( -7024.86, 100.582 )
+position = Vector2( -7012.13, 101.289 )
 
 [node name="HarrierAttackSection" parent="." instance=ExtResource( 3 )]
-position = Vector2( -3730.69, 41.0121 )
+position = Vector2( -3725.04, 41.7193 )
 
 [node name="GreenBeretSection" parent="." instance=ExtResource( 2 )]
 position = Vector2( 100.067, 5.04538 )
