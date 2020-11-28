@@ -7,3 +7,10 @@
 [node name="Sprite" type="Sprite" parent="."]
 scale = Vector2( 3, 3 )
 texture = ExtResource( 1 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2( -274.939, -23.9729 )
+build_mode = 1
+polygon = PoolVector2Array( -12.4637, -30.8003, -9.95572, 55.3524, 81.441, 97.305, 133.133, 95.8067, 187.072, 72.5829, 228.275, 84.5694, 221.533, 42.6168, 273.974, 23.888, 657.437, 25.3863, 657.437, 25.3863, 95.4144, 118.281, -64.1553, 78.5762 )
