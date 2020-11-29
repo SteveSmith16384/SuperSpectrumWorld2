@@ -1,11 +1,10 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://StartPosition.tscn" type="PackedScene" id=1]
 [ext_resource path="res://sections/GreenBeretSection.tscn" type="PackedScene" id=2]
 [ext_resource path="res://sections/HarrierAttackSection.tscn" type="PackedScene" id=3]
 [ext_resource path="res://sections/ManicMinerSection.tscn" type="PackedScene" id=4]
 [ext_resource path="res://sections/BionicCommandoSection.tscn" type="PackedScene" id=5]
-[ext_resource path="res://sections/BombjackSection.tscn" type="PackedScene" id=6]
 [ext_resource path="res://sections/TerramexSection.tscn" type="PackedScene" id=7]
 [ext_resource path="res://levels/Level1_Army.gd" type="Script" id=8]
 
@@ -27,11 +26,8 @@ position = Vector2( 100.067, 5.04538 )
 [node name="BionicCommandoSection" parent="." instance=ExtResource( 5 )]
 position = Vector2( 2674.49, -224.137 )
 
-[node name="BombjackSection" parent="." instance=ExtResource( 6 )]
-position = Vector2( 4639.35, -234.948 )
-
 [node name="TerramexSection" parent="." instance=ExtResource( 7 )]
-position = Vector2( 6296.83, 220.645 )
+position = Vector2( 5672.13, 220.645 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
