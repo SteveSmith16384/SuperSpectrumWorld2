@@ -1,3 +1,4 @@
+class_name EnemySpawner
 extends Node2D
 
 
@@ -23,5 +24,11 @@ func _on_Timer_timeout():
 				var scene = load("res://entities/ExolonRocketEntity.tscn")
 				var bullet = scene.instance()
 				add_child(bullet)
+			Globals.ENEMY_AIRWOLF:
+				var scene = load("res://entities/AirwolfEnemy.tscn")
+				var bullet = scene.instance()
+				add_child(bullet)
+			_:
+				Globals.throw_ex("Unhandled enemy: " + str(type))
 		
 	pass

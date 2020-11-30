@@ -17,6 +17,10 @@ texture = ExtResource( 1 )
 
 [node name="Components" type="Node" parent="."]
 
+[node name="RemoveWhenOffScreenComponent" parent="Components" instance=ExtResource( 7 )]
+position = Vector2( 0.187291, 0.374577 )
+scale = Vector2( 1.22076, 1.08966 )
+
 [node name="HarmsPlayerComponent" parent="Components" instance=ExtResource( 3 )]
 
 [node name="HasAIComponent" parent="Components" instance=ExtResource( 5 )]
@@ -25,7 +29,3 @@ texture = ExtResource( 1 )
 
 [node name="CollidesComponent" parent="." instance=ExtResource( 6 )]
 scale = Vector2( 0.133333, 0.133333 )
-
-[node name="RemoveWhenOffScreenComponent" parent="." instance=ExtResource( 7 )]
-position = Vector2( 0.0624304, 0.124859 )
-scale = Vector2( 0.40692, 0.363219 )

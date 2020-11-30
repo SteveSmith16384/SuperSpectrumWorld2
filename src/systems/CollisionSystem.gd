@@ -6,7 +6,7 @@ func on_process_entity(entity : Entity, delta: float):
 	
 	
 func collision(mover, with, normal):
-	if "id" in with:
+	if "id" in with and "id" in mover: # Are they both entities?
 		if normal == null:
 			normal = Vector2(0,0)
 		if ECS.entity_has_component(mover, "isplayercomponent"):
@@ -20,7 +20,6 @@ func collision(mover, with, normal):
 
 func process_collision(player, other, normal):
 	if ECS.entity_has_component(other, "harmsplayercomponent"):
-		#var c = ECS.entity_get_component(other.id, "harmsplayercomponent")
 		if (normal.y < 0):
 			ECS.remove_entity(other)
 		else:

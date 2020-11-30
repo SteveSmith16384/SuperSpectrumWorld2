@@ -1,3 +1,4 @@
+class_name HasAIComponent
 extends Component
 
 export var move_left = true

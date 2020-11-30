@@ -169,4 +169,4 @@ tile_data = PoolIntArray( 196487, 3, 0, 196492, 2, 0, 196493, 3, 0, 196498, 2, 0
 
 [node name="EnemySpawner" parent="Spawners" instance=ExtResource( 8 )]
 position = Vector2( -2718.89, 16.1643 )
-type = 1
+type = 2
