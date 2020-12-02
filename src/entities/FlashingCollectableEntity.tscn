@@ -34,7 +34,7 @@ animations = [ {
 "speed": 10.0
 } ]
 
-[node name="CollisionEntityTest" type="Node2D"]
+[node name="FlashingCollectableEntity" type="Node2D"]
 scale = Vector2( 3, 3 )
 script = ExtResource( 2 )
 
@@ -49,5 +49,5 @@ scale = Vector2( 0.16, 0.213333 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 5 )
-frame = 1
+frame = 3
 playing = true
