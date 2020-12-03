@@ -15,11 +15,6 @@ func on_process_entity(entity : Entity, delta: float):
 	var e_pos = entity.global_position#get_node("Sprite").get_global_pos()
 	var dist = cam_pos.distance_to(e_pos)
 	rem.on_screen = dist < 450 # todo - inc to 550
-#	if rem
 	if rem.on_screen:
 		rem.been_on_screen = true
-		print("ON screen!")
-	else:
-		print("off screen!")
-		
 	pass
