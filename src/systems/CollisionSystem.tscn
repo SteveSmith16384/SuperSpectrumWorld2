@@ -2,6 +2,6 @@
 
 [ext_resource path="res://systems/CollisionSystem.gd" type="Script" id=1]
 
-[node name="CollisionSystem" type="Node2D"]
+[node name="CollisionSystem" type="Node"]
 script = ExtResource( 1 )
 COMPONENTS = "test"

@@ -12,10 +12,10 @@ func on_process_entity(entity : Entity, delta: float):
 		c.velocity.y += GRAVITY
 		pass
 		
-	if (c.affected_by_gravity == false && c.wants_to_move_down == false):
-		if c.velocity.y > 0:
-			c.velocity.y = 0
-			c.can_jump = true
+#	if c.affected_by_gravity == false && c.wants_to_move_down == false:
+#		if c.velocity.y > 0:
+#			c.velocity.y = 0
+#			c.can_jump = true
 		
 	# Move up and down first
 	var motion = c.velocity * delta

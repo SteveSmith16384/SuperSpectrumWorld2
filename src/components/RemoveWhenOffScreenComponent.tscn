@@ -6,3 +6,5 @@
 script = ExtResource( 1 )
 [connection signal="screen_entered" from="." to="." method="_on_RemoveWhenOffScreenComponent_screen_entered"]
 [connection signal="screen_exited" from="." to="." method="_on_RemoveWhenOffScreenComponent_screen_exited"]
+[connection signal="viewport_entered" from="." to="." method="_on_RemoveWhenOffScreenComponent_viewport_entered"]
+[connection signal="viewport_exited" from="." to="." method="_on_RemoveWhenOffScreenComponent_viewport_exited"]

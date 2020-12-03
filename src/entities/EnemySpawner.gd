@@ -1,29 +1,19 @@
 class_name EnemySpawner
-extends Node2D
+extends Entity
 
 export var type : int = -1
 export var limit : bool = true
 export var count : int = 1
-
-var onscreen = false
 
 func _ready():
 	get_node("Sprite").visible = false
 	pass
 	
 
-func _on_VisibilityNotifier2D_screen_entered():
-	onscreen = true
-	pass # Replace 
-
-
-func _on_VisibilityNotifier2D_screen_exited():
-	onscreen = false
-	pass
-
-
 func _on_Timer_timeout():
-	if onscreen:
+	#var os = ECS.entity_get_component("checkifonscreencomponent")
+	#if os.on_screen:
+	if false: #todo
 		if limit:
 			if count <= 0:
 				return

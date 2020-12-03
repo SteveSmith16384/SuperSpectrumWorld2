@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=4 format=2]
 
 [ext_resource path="res://entities/EnemySpawner.gd" type="Script" id=1]
 [ext_resource path="res://assets/gfx/tetris2.png" type="Texture" id=2]
+[ext_resource path="res://components/CheckIfOnScreenComponent.tscn" type="PackedScene" id=3]
 
 [node name="EnemySpawner" type="Node2D"]
 script = ExtResource( 1 )
@@ -9,14 +10,14 @@ __meta__ = {
 "_editor_description_": "Exolon Rocket Spawn"
 }
 
-[node name="VisibilityNotifier2D" type="VisibilityNotifier2D" parent="."]
-
 [node name="Timer" type="Timer" parent="."]
 wait_time = 2.0
 autostart = true
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 2 )
-[connection signal="screen_entered" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_entered"]
-[connection signal="screen_exited" from="VisibilityNotifier2D" to="." method="_on_VisibilityNotifier2D_screen_exited"]
+
+[node name="Components" type="Node" parent="."]
+
+[node name="CheckIfOnScreenComponent" parent="Components" instance=ExtResource( 3 )]
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

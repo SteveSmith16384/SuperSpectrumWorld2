@@ -12,15 +12,17 @@ var momentum = Vector2(0, 0)
 var game_data : GameData
 
 var player_dying = false
-var restart_position : Vector2
+var restart_position2 = null
 
 
 func _ready():
+
 	game_data = preload("GameData.gd").new()
 
 	player = $Player
-	if restart_position == null:
-		restart_position = player.position
+	$Camera2D.position = player.position
+	if restart_position2 == null:
+		restart_position2 = player.position
 
 
 func _process(delta):
@@ -80,7 +82,7 @@ func player_killed():
 
 func _on_RestartTimer_timeout():
 	$RestartTimer.stop()
-	$Player.position = restart_position
+	$Player.position = restart_position2
 	player_dying = false
 	$Player.get_node("AnimatedSprite").visible = true
 

@@ -14,12 +14,17 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://entities/AirwolfEnemy.gd"
 }, {
+"base": "Component",
+"class": "CheckIfOnScreenComponent",
+"language": "GDScript",
+"path": "res://components/CheckIfOnScreenComponent.gd"
+}, {
 "base": "Node",
 "class": "Component",
 "language": "GDScript",
 "path": "res://gs_ecs/component.gd"
 }, {
-"base": "Node2D",
+"base": "Entity",
 "class": "EnemySpawner",
 "language": "GDScript",
 "path": "res://entities/EnemySpawner.gd"
@@ -56,6 +61,7 @@ _global_script_classes=[ {
 } ]
 _global_script_class_icons={
 "AirwolfEnemy": "",
+"CheckIfOnScreenComponent": "",
 "Component": "",
 "EnemySpawner": "",
 "Entity": "",

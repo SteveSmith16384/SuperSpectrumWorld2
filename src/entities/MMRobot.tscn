@@ -51,12 +51,12 @@ shape = SubResource( 1 )
 [node name="HarmsPlayerComponent" parent="Components" instance=ExtResource( 3 )]
 
 [node name="MovementComponent" parent="Components" instance=ExtResource( 4 )]
+affected_by_gravity = false
 
 [node name="HasAIComponent" parent="Components" instance=ExtResource( 5 )]
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 position = Vector2( 4.16223, 0 )
 frames = SubResource( 6 )
-frame = 1
 playing = true
 [connection signal="frame_changed" from="AnimatedSprite" to="." method="_on_AnimatedSprite_frame_changed"]
