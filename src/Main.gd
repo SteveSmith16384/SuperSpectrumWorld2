@@ -89,5 +89,6 @@ func _on_RestartTimer_timeout():
 
 func inc_score(amt):
 	game_data.score += amt
-	#todo
+	var hud = get_node("HUD")
+	hud.update_score(game_data.score)
 	

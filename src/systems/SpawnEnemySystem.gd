@@ -12,10 +12,14 @@ func on_process_entity(entity : Entity, delta: float):
 	
 	
 	var sp : SpawnsEnemyComponent = ECS.entity_get_component(entity, "spawnsenemycomponent")
+	if sp. sp.qty <= 0:
+		return
+	
 	sp.time_until_next_spawn -= delta
 	if sp.time_until_next_spawn <= 0:
 		sp.time_until_next_spawn = sp.interval
 		spawn_enemy(entity, sp.type)
+		sp.qty = sp.qty - 1
 	pass
 	
 
@@ -48,4 +52,4 @@ func spawn_enemy(parent : Entity, type : int):
 
 	var bullet = scene.instance()
 	parent.add_child(bullet)
-	#bullet.position.x = bullet.position.x + 100
+	pass

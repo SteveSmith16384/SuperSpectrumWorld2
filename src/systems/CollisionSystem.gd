@@ -42,15 +42,16 @@ func process_collision_with_player(player : Entity, other : Entity, normal : Vec
 		if (normal.y < 0):
 			ECS.remove_entity(other)
 		else:
-			#print("Player killed")
 			var main = get_tree().get_root().get_node("Main")
 			main.player_killed()
 	
 	if ECS.entity_has_component(other, "removeoncollisioncomponent"):
 		ECS.remove_entity(other)
 	
-	if ECS.entity_has_component(other, "incscoreoncollision"):
-		# todo
+	if ECS.entity_has_component(other, "IncScoreOnCollisionComponent"):
+		var inc : IncScoreOnCollisionComponent = ECS.entity_get_component(other, "IncScoreOnCollisionComponent")
+		var main = get_tree().get_root().get_node("Main")
+		main.inc_score(inc.points)
 		pass
 
 	

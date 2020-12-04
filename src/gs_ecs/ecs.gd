@@ -164,7 +164,7 @@ func clean():
 	
 
 # add an entity to a component
-func entity_add_component(entity, component):
+func entity_add_component(entity : Entity, component : Component):
 	Logger.trace("[ECS] entity_add_component")
 	is_dirty = true
 
@@ -184,28 +184,27 @@ func entity_add_component(entity, component):
 	# add entity to the component
 	component_entities[_id][_entity_id] = component
 	Logger.debug("- added %s component for entity %s:%s " % [_id, entity, entity.name])
-
 	return
 
 
 # returns a component for an entity
-func entity_get_component(entity, component_name):
+func entity_get_component(entity : Entity, component_name : String):
 	Logger.trace("[ECS] entity_get_component")
-	if (component_entities.has(component_name)):
-		return component_entities[component_name][entity.id]
+	if (component_entities.has(component_name.to_lower())):
+		return component_entities[component_name.to_lower()][entity.id]
 
 
 # returns true if the entity has the component
-func entity_has_component(entity, component_name):
+func entity_has_component(entity : Entity, component_name : String):
 	Logger.trace("[ECS] entity_has_component")
-	if component_entities.has(component_name):
-		if component_entities[component_name].has(entity.id):
+	if component_entities.has(component_name.to_lower()):
+		if component_entities[component_name.to_lower()].has(entity.id):
 			return true
 	return false
 
 
 
-func entity_remove_component(entity, component_name):
+func entity_remove_component(entity : Entity, component_name : String):
 	Logger.trace("[ECS] entity_remove_component")
 	is_dirty = true
 

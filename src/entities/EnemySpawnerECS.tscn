@@ -1,7 +1,6 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://entities/EnemySpawnerECS.gd" type="Script" id=1]
-[ext_resource path="res://components/RemoveWhenOffScreenComponent.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/gfx/tetris2.png" type="Texture" id=3]
 [ext_resource path="res://components/CheckIfOnScreenComponent.tscn" type="PackedScene" id=4]
 [ext_resource path="res://components/SpawnsEnemyComponent.tscn" type="PackedScene" id=5]
@@ -15,8 +14,5 @@ texture = ExtResource( 3 )
 [node name="Components" type="Node" parent="."]
 
 [node name="SpawnsEnemyComponent" parent="Components" instance=ExtResource( 5 )]
-type = 4
-
-[node name="RemoveWhenOffScreenComponent" parent="Components" instance=ExtResource( 2 )]
 
 [node name="CheckIfOnScreenComponent" parent="Components" instance=ExtResource( 4 )]

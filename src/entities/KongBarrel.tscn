@@ -37,11 +37,12 @@ animations = [ {
 script = ExtResource( 7 )
 
 [node name="CollidesComponent" parent="." instance=ExtResource( 2 )]
+scale = Vector2( 0.319999, 0.559999 )
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 3, 3 )
 frames = SubResource( 4 )
-frame = 1
+frame = 2
 playing = true
 
 [node name="Components" type="Node" parent="."]
