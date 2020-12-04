@@ -42,4 +42,5 @@ position = Vector2( -6967.31, 56.8241 )
 [node name="CollisionSystem" parent="Systems" instance=ExtResource( 8 )]
 
 [node name="RestartTimer" type="Timer" parent="."]
+autostart = true
 [connection signal="timeout" from="RestartTimer" to="." method="_on_RestartTimer_timeout"]

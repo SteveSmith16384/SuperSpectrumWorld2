@@ -12,18 +12,19 @@ var momentum = Vector2(0, 0)
 var game_data : GameData
 
 var player_dying = false
-var restart_position2 = null
-
+var restart_positions = []
+#var restart_idx : int = 0
+const max_restart_positions = 2
 
 func _ready():
-
 	game_data = preload("GameData.gd").new()
 
 	player = $Player
 	$Camera2D.position = player.position
-	if restart_position2 == null:
-		restart_position2 = player.position
 
+	for x in range(max_restart_positions):
+		restart_positions.push_back(player.position)
+	
 
 func _process(delta):
 	$Camera2D.position = player.position
@@ -74,21 +75,37 @@ func _process(delta):
 
 
 func player_killed():
+	game_data.lives = game_data.lives - 1
+	var hud = get_node("HUD")
+	hud.update_lives(game_data.lives)
 	player_dying = true
-	#$Player.$AnimatedSprite.Visible = false
 	$Player.get_node("AnimatedSprite").visible = false
+	$RestartTimer.stop();
 	$RestartTimer.start()
-
+	pass
+	
 
 func _on_RestartTimer_timeout():
-	$RestartTimer.stop()
-	$Player.position = restart_position2
-	player_dying = false
-	$Player.get_node("AnimatedSprite").visible = true
+	if player_dying:
+		#$RestartTimer.stop()
+		$Player.position = get_restart_pos()
+		player_dying = false
+		$Player.get_node("AnimatedSprite").visible = true
+	else:
+		# Store start position
+		restart_positions.pop_front()
+		restart_positions.push_back(player.position)
+	pass
 
 
+func get_restart_pos():
+	return restart_positions[0]
+	pass
+	
+	
 func inc_score(amt):
 	game_data.score += amt
 	var hud = get_node("HUD")
 	hud.update_score(game_data.score)
+	pass
 	

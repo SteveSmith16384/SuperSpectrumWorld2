@@ -12,7 +12,7 @@ func on_process_entity(entity : Entity, delta: float):
 	
 	
 	var sp : SpawnsEnemyComponent = ECS.entity_get_component(entity, "spawnsenemycomponent")
-	if sp. sp.qty <= 0:
+	if sp.qty <= 0:
 		return
 	
 	sp.time_until_next_spawn -= delta

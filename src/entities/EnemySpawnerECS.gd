@@ -3,7 +3,7 @@ extends Entity
 export var type : int = -1
 export var repeat : bool = true
 export var qty : int = 1
-export var interval : int = 5 # seconds
+export var interval : float = 5 # seconds
 
 # Called when the node enters the scene tree for the first time.
 func _ready():

@@ -45,7 +45,7 @@ scale = Vector2( 1.24, 0.64 )
 [node name="HasAIComponent" parent="Components" instance=ExtResource( 6 )]
 move_x = 0
 move_y = 1
-move_speed = 80
+move_speed = 60
 move_in_loop = true
 move_distance = 2200
 
@@ -53,4 +53,5 @@ move_distance = 2200
 scale = Vector2( 3, 3 )
 frames = SubResource( 1 )
 animation = "New Anim"
+frame = 1
 playing = true
