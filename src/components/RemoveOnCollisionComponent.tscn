@@ -2,5 +2,5 @@
 
 [ext_resource path="res://components/RemoveOnCollisionComponent.gd" type="Script" id=1]
 
-[node name="RemoveOnCollisionComponent" type="Node2D"]
+[node name="RemoveOnCollisionComponent" type="Node"]
 script = ExtResource( 1 )

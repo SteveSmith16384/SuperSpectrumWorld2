@@ -48,10 +48,11 @@ move_x = 0
 move_y = 1
 move_speed = 100
 move_in_loop = true
-move_distance = 2000
+move_distance = 2200
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 scale = Vector2( 3, 3 )
 frames = SubResource( 1 )
 animation = "New Anim"
+frame = 1
 playing = true

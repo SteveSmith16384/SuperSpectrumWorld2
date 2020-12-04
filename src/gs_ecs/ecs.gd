@@ -77,6 +77,11 @@ func add_entity(entity):
 	is_dirty = true
 
 	var _id = entity.get_instance_id()
+	
+	if Globals.DEBUG:
+		if _id == 1749:
+			print("here")
+
 	var _name = entity.name
 
 	# warn if trying to use same instance_id and exit
@@ -368,13 +373,13 @@ func update(group = null, delta = null):
 			if entities.has(_entity_id):
 				entities[_entity_id].queue_free()
 				entities.erase(_entity_id)
+				
+		# and clear the queue
+		entity_remove_queue.clear()
 
-	# and clear the queue
-	entity_remove_queue.clear()
 	
 	# full cleaning requested?
 	if (do_clean):
-		
 		entities.clear()
 		component_entities.clear()
 		systems.clear()
@@ -393,14 +398,19 @@ func _add_system_entities(system_name):
 
 	var _entities = []
 
-	for entity_id in entities:
+	for entity_id in entities.keys():
+		
+		if Globals.DEBUG:
+			if entities[entity_id] == null:
+				print("HERE!")
+				remove_entity(entity_id)
+				continue
 
 		if not entities[entity_id].enabled:
 			continue
 
 		var has_all_components = true
 		for component in system_components[system_name]:
-
 			if component.substr(0,1) == "!":
 				var _component_id = component.substr(1,999)
 				if (has_component(_component_id)):

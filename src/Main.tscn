@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://levels/Level1_Army.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Main.gd" type="Script" id=2]
@@ -8,6 +8,7 @@
 [ext_resource path="res://systems/CheckIfOnScreenSystem.tscn" type="PackedScene" id=6]
 [ext_resource path="res://HUD.tscn" type="PackedScene" id=7]
 [ext_resource path="res://systems/CollisionSystem.tscn" type="PackedScene" id=8]
+[ext_resource path="res://systems/SpawnEnemySystem.tscn" type="PackedScene" id=9]
 [ext_resource path="res://systems/RemoveWhenOffScreenSystem.tscn" type="PackedScene" id=10]
 
 [node name="Main" type="Node2D"]
@@ -27,6 +28,8 @@ current = true
 position = Vector2( -6967.31, 56.8241 )
 
 [node name="Systems" type="Node" parent="."]
+
+[node name="SpawnEnemySystem" parent="Systems" instance=ExtResource( 9 )]
 
 [node name="CheckIfOnScreenSystem" parent="Systems" instance=ExtResource( 6 )]
 

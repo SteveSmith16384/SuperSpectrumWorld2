@@ -36,8 +36,8 @@ scale = Vector2( 2.16, 0.48 )
 
 [node name="Collectables" type="Node2D" parent="."]
 
-[node name="CollisionEntityTest2" parent="Collectables" instance=ExtResource( 3 )]
+[node name="FlashingCollectable2" parent="Collectables" instance=ExtResource( 3 )]
 position = Vector2( 193.04, -116.673 )
 
-[node name="CollisionEntityTest" parent="Collectables" instance=ExtResource( 3 )]
+[node name="FlashingCollectable" parent="Collectables" instance=ExtResource( 3 )]
 position = Vector2( -254.558, -11.3137 )

@@ -4,3 +4,4 @@
 
 [node name="SpawnEnemySystem" type="Node"]
 script = ExtResource( 1 )
+COMPONENTS = "SpawnsEnemyComponent"

@@ -13,5 +13,7 @@ __meta__ = {
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 scale = Vector2( 2.24, 6.76 )
 shape = SubResource( 1 )
+
+[node name="Components" type="Node" parent="."]
 [connection signal="body_entered" from="." to="." method="_on_Ladder_body_entered"]
 [connection signal="body_exited" from="." to="." method="_on_Ladder_body_exited"]

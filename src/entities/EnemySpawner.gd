@@ -1,6 +1,9 @@
 class_name EnemySpawner
 extends Entity
 
+# This does not use ECS.
+
+
 export var type : int = -1
 export var limit : bool = true
 export var count : int = 1

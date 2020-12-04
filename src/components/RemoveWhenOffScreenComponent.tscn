@@ -2,9 +2,5 @@
 
 [ext_resource path="res://components/RemoveWhenOffScreenComponent.gd" type="Script" id=1]
 
-[node name="RemoveWhenOffScreenComponent" type="VisibilityNotifier2D"]
+[node name="RemoveWhenOffScreenComponent" type="Node"]
 script = ExtResource( 1 )
-[connection signal="screen_entered" from="." to="." method="_on_RemoveWhenOffScreenComponent_screen_entered"]
-[connection signal="screen_exited" from="." to="." method="_on_RemoveWhenOffScreenComponent_screen_exited"]
-[connection signal="viewport_entered" from="." to="." method="_on_RemoveWhenOffScreenComponent_viewport_entered"]
-[connection signal="viewport_exited" from="." to="." method="_on_RemoveWhenOffScreenComponent_viewport_exited"]

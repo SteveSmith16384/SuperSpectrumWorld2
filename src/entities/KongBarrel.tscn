@@ -1,0 +1,63 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://assets/gfx/kongbarrel.png" type="Texture" id=1]
+[ext_resource path="res://components/CollidesComponent.tscn" type="PackedScene" id=2]
+[ext_resource path="res://components/RemoveOnCollisionComponent.tscn" type="PackedScene" id=3]
+[ext_resource path="res://components/HarmsPlayerComponent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://components/HasAIComponent.tscn" type="PackedScene" id=5]
+[ext_resource path="res://components/MovementComponent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://entities/KongBarrel.gd" type="Script" id=7]
+[ext_resource path="res://components/CheckIfOnScreenComponent.tscn" type="PackedScene" id=8]
+[ext_resource path="res://components/RemoveWhenOffScreenComponent.tscn" type="PackedScene" id=9]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 0, 0, 12, 12 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 12, 0, 12, 12 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 1 )
+region = Rect2( 24, 0, 12, 12 )
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[node name="KongBarrel" type="Node2D"]
+script = ExtResource( 7 )
+
+[node name="CollidesComponent" parent="." instance=ExtResource( 2 )]
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 3, 3 )
+frames = SubResource( 4 )
+frame = 1
+playing = true
+
+[node name="Components" type="Node" parent="."]
+
+[node name="RemoveWhenOffScreenComponent" parent="Components" instance=ExtResource( 9 )]
+
+[node name="CheckIfOnScreenComponent" parent="Components" instance=ExtResource( 8 )]
+
+[node name="RemoveOnCollisionComponent" parent="Components" instance=ExtResource( 3 )]
+
+[node name="MovementComponent" parent="Components" instance=ExtResource( 6 )]
+
+[node name="HasAIComponent" parent="Components" instance=ExtResource( 5 )]
+move_x = 0
+move_y = 1
+move_speed = 100
+move_distance = 0
+
+[node name="HarmsPlayerComponent" parent="Components" instance=ExtResource( 4 )]

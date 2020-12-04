@@ -1,16 +1,8 @@
-extends Node
+class_name SpawnsEnemyComponent
+extends Component
 
+export var type : int = -1
+export var interval : int = 5
+export var qty : int  = 1
 
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
-
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+var time_until_next_spawn : float
