@@ -38,6 +38,7 @@ func on_process_entity(entity : Entity, delta: float):
 	motion = c.velocity * delta
 	if motion.x != 0:
 		motion.y = 0
+		#print("Moving " + str(motion.x))
 		if entity.has_method("move_and_collide"):
 			var res = entity.move_and_collide(motion)
 			if (res):

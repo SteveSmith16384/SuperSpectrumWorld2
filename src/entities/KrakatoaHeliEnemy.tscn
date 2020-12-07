@@ -28,7 +28,8 @@ animations = [ {
 script = ExtResource( 1 )
 
 [node name="CollidesComponent" parent="." instance=ExtResource( 4 )]
-scale = Vector2( 1.24, 0.64 )
+position = Vector2( 2.97302, -0.594604 )
+scale = Vector2( 1.68, 0.56 )
 
 [node name="Components" type="Node" parent="."]
 

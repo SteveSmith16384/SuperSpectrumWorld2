@@ -1,9 +1,8 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://assets/backgrounds/manicminer_start.png" type="Texture" id=1]
 [ext_resource path="res://assets/gfx/ground_green.png" type="Texture" id=2]
 [ext_resource path="res://entities/FlashingCollectableEntity.tscn" type="PackedScene" id=3]
-[ext_resource path="res://entities/Ladder.tscn" type="PackedScene" id=4]
 [ext_resource path="res://sections/ManicMinerSection.gd" type="Script" id=5]
 
 [sub_resource type="PhysicsMaterial" id=1]
@@ -29,10 +28,6 @@ physics_material_override = SubResource( 1 )
 position = Vector2( -274.939, -23.9729 )
 build_mode = 1
 polygon = PoolVector2Array( -6.46744, -35.5102, -15.4471, 57.6542, 81.441, 97.305, 133.133, 95.8067, 187.072, 72.5829, 228.275, 84.5694, 221.533, 42.6168, 273.974, 23.888, 657.437, 25.3863, 657.437, 25.3863, 95.4144, 118.281, -64.1553, 78.5762 )
-
-[node name="Ladder" parent="." instance=ExtResource( 4 )]
-position = Vector2( 191.626, -44.8954 )
-scale = Vector2( 2.16, 0.48 )
 
 [node name="Collectables" type="Node2D" parent="."]
 

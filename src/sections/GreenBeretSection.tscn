@@ -1,105 +1,52 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://assets/backgrounds/greenberet.png" type="Texture" id=1]
 [ext_resource path="res://assets/gfx/bewareofthedog.png" type="Texture" id=2]
 [ext_resource path="res://entities/FlashingCollectableEntity.tscn" type="PackedScene" id=3]
-[ext_resource path="res://entities/Ladder.tscn" type="PackedScene" id=5]
-[ext_resource path="res://sections/GreenBeretSection.gd" type="Script" id=6]
+[ext_resource path="res://sections/GreenBeretSubSection.tscn" type="PackedScene" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 60.513, 10 )
-
-[sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 10.0894, 7.49159 )
-
-[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 54.4374, 10 )
 
 [node name="GreenBeretSection" type="Node2D"]
-scale = Vector2( 3, 3 )
-script = ExtResource( 6 )
 
 [node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( -66.297, -21.3574 )
+position = Vector2( -78.5674, -8.14316 )
+scale = Vector2( 3, 3 )
 texture = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 3, 3 )
 texture = ExtResource( 1 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2( 42.452, 1.99774 )
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( -50.9692, 74.8807 )
+[node name="Floor" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2( -41.982, 73.0314 )
 scale = Vector2( 5.65333, 1 )
 shape = SubResource( 1 )
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( -210.767, 40.281 )
-scale = Vector2( 4.02666, 1 )
-shape = SubResource( 2 )
-one_way_collision = true
+[node name="Enemies" type="Node2D" parent="."]
 
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( -115.125, 40.281 )
-scale = Vector2( 4.02666, 1 )
-shape = SubResource( 2 )
-one_way_collision = true
-
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( -18.9835, 40.7804 )
-scale = Vector2( 4.02666, 1 )
-shape = SubResource( 2 )
-one_way_collision = true
-
-[node name="CollisionShape2D5" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 76.6584, 40.5307 )
-scale = Vector2( 4.02666, 1 )
-shape = SubResource( 2 )
-one_way_collision = true
-
-[node name="CollisionShape2D6" type="CollisionShape2D" parent="StaticBody2D"]
-position = Vector2( 172.753, 40.2742 )
-scale = Vector2( 4.02666, 1 )
-shape = SubResource( 2 )
-one_way_collision = true
-
-[node name="Area2D" type="Area2D" parent="."]
-position = Vector2( -163.157, 48.3822 )
-scale = Vector2( 0.573333, 1.6 )
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
-shape = SubResource( 3 )
-
-[node name="CollisionShape2D3" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( 167.253, -0.312147 )
-shape = SubResource( 3 )
-
-[node name="CollisionShape2D4" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( 334.506, 0 )
-shape = SubResource( 3 )
-
-[node name="CollisionShape2D5" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( 501.323, 0.156075 )
-shape = SubResource( 3 )
-
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
-position = Vector2( -167.253, -0.312147 )
-shape = SubResource( 3 )
-
-[node name="Enemies" type="Node" parent="."]
-
-[node name="Collectables" type="Node" parent="."]
+[node name="Collectables" type="Node2D" parent="."]
 
 [node name="FlashingCollectable" parent="Collectables" instance=ExtResource( 3 )]
-position = Vector2( -503.245, 64.6273 )
+position = Vector2( -410.614, -64.0661 )
 
-[node name="Ladders" type="Node" parent="."]
+[node name="Subsections" type="Node2D" parent="."]
 
-[node name="Ladder" parent="Ladders" instance=ExtResource( 5 )]
-position = Vector2( -679.727, 39.6875 )
-scale = Vector2( 0.8, 0.559999 )
+[node name="GreenBeretSubSection" parent="Subsections" instance=ExtResource( 4 )]
+position = Vector2( -555.042, 95.6691 )
 
-[node name="Ladder2" parent="Ladders" instance=ExtResource( 5 )]
-position = Vector2( -393.46, 43.1418 )
-scale = Vector2( 0.806975, 0.629396 )
-[connection signal="body_entered" from="Area2D" to="." method="_on_Area2D_body_entered"]
-[connection signal="body_exited" from="Area2D" to="." method="_on_Area2D_body_exited"]
+[node name="GreenBeretSubSection2" parent="Subsections" instance=ExtResource( 4 )]
+position = Vector2( -555.042, 95.6691 )
+
+[node name="GreenBeretSubSection3" parent="Subsections" instance=ExtResource( 4 )]
+position = Vector2( -555.042, 95.6691 )
+
+[node name="GreenBeretSubSection4" parent="Subsections" instance=ExtResource( 4 )]
+position = Vector2( -555.042, 95.6691 )
+
+[node name="GreenBeretSubSection5" parent="Subsections" instance=ExtResource( 4 )]
+position = Vector2( -555.042, 95.6691 )
