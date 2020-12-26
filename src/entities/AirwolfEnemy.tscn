@@ -26,7 +26,6 @@ texture = ExtResource( 7 )
 [node name="RemoveOnCollisionComponent" parent="Components" instance=ExtResource( 3 )]
 
 [node name="MovementComponent" parent="Components" instance=ExtResource( 2 )]
-affected_by_gravity = false
 
 [node name="HarmsPlayerComponent" parent="Components" instance=ExtResource( 5 )]
 

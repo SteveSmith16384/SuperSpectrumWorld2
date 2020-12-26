@@ -18,8 +18,6 @@ texture = ExtResource( 1 )
 [node name="Components" type="Node" parent="."]
 
 [node name="RemoveWhenOffScreenComponent" parent="Components" instance=ExtResource( 7 )]
-position = Vector2( 0.187291, 0.374577 )
-scale = Vector2( 1.22076, 1.08966 )
 
 [node name="HarmsPlayerComponent" parent="Components" instance=ExtResource( 3 )]
 

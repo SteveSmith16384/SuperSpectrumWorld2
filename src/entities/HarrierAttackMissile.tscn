@@ -27,7 +27,6 @@ move_speed = 300
 [node name="RemoveWhenOffScreenComponent" parent="Components" instance=ExtResource( 4 )]
 
 [node name="MovementComponent" parent="Components" instance=ExtResource( 6 )]
-affected_by_gravity = false
 
 [node name="HarmsPlayerComponent" parent="Components" instance=ExtResource( 3 )]
 

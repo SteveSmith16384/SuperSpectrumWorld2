@@ -25,7 +25,6 @@ func on_process_entity(entity : Entity, delta: float):
 			var res = entity.move_and_collide(motion)
 			if (res):
 				var collider = res.collider
-				#var owner = collider.get_owner()
 				collision(entity, collider, res.normal)
 				c.can_jump = true
 				c.velocity.y = 0 # Reset falling speed if we hit something
@@ -53,3 +52,4 @@ func collision(e1, e2, normal):
 	var coll = ECS.systems.get("collisionsystem")
 	coll.collision(e1, e2, normal)
 	pass
+

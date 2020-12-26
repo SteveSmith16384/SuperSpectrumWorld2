@@ -16,7 +16,8 @@ func on_process_entity(entity : Entity, delta: float):
 	move.velocity.y = hasAI.move_y * hasAI.move_speed
 	
 	if hasAI.move_in_loop:
-		hasAI.movement_done = hasAI.movement_done + (abs(move.velocity.x) + abs(move.velocity.y))
+		var actual_movement = (abs(move.velocity.x) + abs(move.velocity.y)) * delta
+		hasAI.movement_done = hasAI.movement_done + actual_movement
 		if hasAI.movement_done >= hasAI.move_distance:
 			hasAI.movement_done = hasAI.movement_done - hasAI.move_distance
 			hasAI.move_x = hasAI.move_x * -1
