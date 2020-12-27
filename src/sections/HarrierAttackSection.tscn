@@ -1,4 +1,4 @@
-[gd_scene load_steps=26 format=2]
+[gd_scene load_steps=27 format=2]
 
 [ext_resource path="res://assets/backgrounds/HarrierAttack.png" type="Texture" id=1]
 [ext_resource path="res://assets/gfx/antattack_up.png" type="Texture" id=2]
@@ -15,6 +15,7 @@
 [ext_resource path="res://entities/HarrierAttackPlane.tscn" type="PackedScene" id=13]
 [ext_resource path="res://entities/KillerKong.tscn" type="PackedScene" id=14]
 [ext_resource path="res://entities/HarrierAttackMissile.tscn" type="PackedScene" id=15]
+[ext_resource path="res://entities/Crusher.tscn" type="PackedScene" id=16]
 [ext_resource path="res://entities/EnemySpawnerECS.tscn" type="PackedScene" id=17]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -135,6 +136,10 @@ points = PoolVector2Array( 0, 7.90591, 0, 1.36996, 7.85159, 7.90591 )
 
 [node name="HarrierAttackSection" type="Node2D"]
 script = ExtResource( 5 )
+
+[node name="Crusher" parent="." instance=ExtResource( 16 )]
+position = Vector2( -2663.31, -526.201 )
+scale = Vector2( 6, 6 )
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 

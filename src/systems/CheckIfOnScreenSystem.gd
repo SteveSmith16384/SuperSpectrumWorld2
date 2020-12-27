@@ -11,11 +11,11 @@ func on_process_entity(entity : Entity, delta: float):
 	
 	#print(cam.get_camera_position())
 	var rem : CheckIfOnScreenComponent = ECS.entity_get_component(entity, "checkifonscreencomponent")
-	var cam_pos = cam.get_camera_position()
-	#print(cam_pos)
-	var e_pos = entity.global_position#get_node("Sprite").get_global_pos()
-	var dist = cam_pos.distance_to(e_pos)
+	var cam_pos : Vector2 = cam.get_camera_position()
+	var e_pos : Vector2 = entity.global_position#get_node("Sprite").get_global_pos()
+	#var dist = cam_pos.distance_to(e_pos)
+	var dist = e_pos.x - cam_pos.x
 	rem.on_screen = dist < 450 # todo - inc to 550
-	if rem.on_screen:
+	if rem.on_screen and rem.been_on_screen == false:
 		rem.been_on_screen = true
 	pass

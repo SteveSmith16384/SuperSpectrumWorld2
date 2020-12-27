@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://entities/Crusher.gd" type="Script" id=1]
 [ext_resource path="res://components/MovementComponent.tscn" type="PackedScene" id=2]
@@ -6,6 +6,8 @@
 [ext_resource path="res://assets/gfx/mm_crusher.png" type="Texture" id=4]
 [ext_resource path="res://components/CollidesComponent.tscn" type="PackedScene" id=5]
 [ext_resource path="res://components/HasAIComponent.tscn" type="PackedScene" id=6]
+[ext_resource path="res://components/RemoveWhenOffScreenComponent.tscn" type="PackedScene" id=7]
+[ext_resource path="res://components/CheckIfOnScreenComponent.tscn" type="PackedScene" id=8]
 
 [node name="Crusher" type="Node2D"]
 scale = Vector2( 3.6, 3.44 )
@@ -23,9 +25,13 @@ scale = Vector2( 0.72, 1.28 )
 [node name="HasAIComponent" parent="Components" instance=ExtResource( 6 )]
 move_x = 0
 move_y = 1
-move_speed = 500
+move_speed = 400
 move_in_loop = true
 move_distance = 400
+
+[node name="CheckIfOnScreenComponent" parent="Components" instance=ExtResource( 8 )]
+
+[node name="RemoveWhenOffScreenComponent" parent="Components" instance=ExtResource( 7 )]
 
 [node name="Sprite" type="Sprite" parent="."]
 texture = ExtResource( 4 )
